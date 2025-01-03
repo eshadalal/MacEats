@@ -44,7 +44,7 @@ function displayResults(results) {
 
             // Add tags
             const tags = document.createElement('p');
-            tags.textContent = `Tags: ${result.tags.join(", ")}`;
+            tags.textContent = `${result.tags.join(", ")}`;
             item.appendChild(tags);
 
             resultsDiv.appendChild(item);
