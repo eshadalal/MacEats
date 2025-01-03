@@ -1,19 +1,15 @@
-// Select input and button
 const searchInput = document.querySelector('input[type="text"]');
 const searchButton = document.querySelector('button');
 
-// Add event listener for search
 searchButton.addEventListener('click', () => {
     const query = searchInput.value.trim().toLowerCase();
 
     if (query) {
-        // Filter data based on the query
         const results = data.filter(item =>
             item.name.toLowerCase().includes(query) || 
             item.tags.some(tag => tag.toLowerCase().includes(query))
         );
 
-        // Display results
         displayResults(results);
     } else {
         console.log('No results found.');
@@ -24,11 +20,9 @@ searchButton.addEventListener('click', () => {
 function displayResults(results) {
     const container = document.querySelector('.container');
 
-    // Remove old results
     const oldResults = document.querySelector('.results');
     if (oldResults) oldResults.remove();
 
-    // Create results container
     const resultsDiv = document.createElement('div');
     resultsDiv.className = 'results';
 
@@ -37,18 +31,17 @@ function displayResults(results) {
             const item = document.createElement('div');
             item.className = 'result-item';
 
-            // Add name
             const name = document.createElement('h3');
             name.textContent = result.name;
             item.appendChild(name);
 
-            // Add tags
             const tags = document.createElement('p');
             tags.textContent = `${result.tags.join(", ")}`;
             item.appendChild(tags);
 
             resultsDiv.appendChild(item);
         });
+        
     } else {
         resultsDiv.textContent = 'No results found.';
     }
