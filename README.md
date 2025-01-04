@@ -8,6 +8,6 @@ Uni struggles are real, but finding food on campus doesn’t have to be! Craving
 
 Current Version: 
 
-![Alt Text](./images/pizza.png)
-![Alt Text](./images/vegetarian.png)
+![Pizza](./images/pizza.png)
+![Vegetarian](./images/vegetarian.png)
 
