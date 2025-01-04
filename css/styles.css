@@ -7,16 +7,23 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center;
+    flex-direction: column; 
     align-items: center;
     height: 100vh;
     background-color: white;
+    overflow-y: auto; 
 }
 
 .container {
-    text-align: center;
     max-width: 1200px;
+    width: 100%; 
     padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky; 
+    top: 0;
+    background-color: white; 
+    z-index: 10;
+    text-align: center;
 }
 
 h1 {
@@ -53,6 +60,11 @@ button:hover {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
     margin-top: 20px;
+    padding: 20px;
+    overflow-y: auto; 
+    flex-grow: 1; 
+    width: 100%;
+    height: calc(100vh - 120px); 
 }
 
 .result-item {
@@ -70,13 +82,26 @@ button:hover {
 
 .result-item h3 {
     position: absolute;  
-    bottom: 0;           
+    bottom: 50;           
     left: 0;             
     color: black;        
     padding: 10px;       
     font-size: 16px;     
     width: 100%;         
-  }
+}
+
+.result-item p {
+    position: absolute; 
+    bottom: 10px;
+    left: 10px; 
+    right: 10px; 
+    font-style: italic;
+    font-size: 0.8rem;
+    color: black;
+    text-align: left; 
+    z-index: 1; 
+    margin: 0; 
+}
 
 .result-item::before {
     content: '';
@@ -98,10 +123,6 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-    .container {
-        padding: 10px;
-    }
-
     input[type="text"] {
         width: 250px;
     }
@@ -136,4 +157,27 @@ button:hover {
     .result-item h3 {
         font-size: 1rem;
     }
+}
+
+.like-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.like-icon {
+    cursor: pointer;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.like-icon.liked {
+    color: red; 
+    
+}
+
+.like-count {
+    font-size: 14px;
 }
