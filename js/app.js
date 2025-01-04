@@ -16,7 +16,6 @@ searchButton.addEventListener('click', () => {
     }
 });
 
-// Display search results
 function displayResults(results) {
     const container = document.querySelector('.container');
 
@@ -39,6 +38,22 @@ function displayResults(results) {
             tags.textContent = `${result.tags.join(", ")}`;
             item.appendChild(tags);
 
+            const likeIcon = document.createElement('div');
+            likeIcon.className = 'like-container';
+
+            const like = document.createElement('span');
+            like.className = 'like-icon';
+            like.textContent = '♡'; 
+            like.addEventListener('click', () => toggleLike(like, result));
+
+            const likeCount = document.createElement('span');
+            likeCount.className = 'like-count';
+            likeCount.textContent = result.likeCount || 0; 
+
+            likeIcon.appendChild(like);
+            likeIcon.appendChild(likeCount);
+            item.appendChild(likeIcon);
+
             resultsDiv.appendChild(item);
         });
         
@@ -47,6 +62,19 @@ function displayResults(results) {
     }
 
     container.appendChild(resultsDiv);
+}
+
+function toggleLike(like, result) {
+    like.classList.toggle('liked');
+
+    if (like.classList.contains('liked')) {
+        result.likeCount = (result.likeCount || 0) + 1;
+    } else {
+        result.likeCount = (result.likeCount || 1) - 1; 
+    }
+
+    const likeCountElement = like.nextElementSibling;
+    likeCountElement.textContent = result.likeCount;
 }
 
 const data = [
@@ -98,7 +126,6 @@ const data = [
     { name: "Veggie Dish", tags: ["Bistro@MKR"] },
     { name: "Braise Dish", tags: ["Bistro@MKR"] },
     { name: "Fruit Smoothie", tags: ["Bistro@MKR, Booster Juice"] },
-    { name: "Milkshakes", tags: ["Bistro@MKR"] },
     { name: "Sweet Treats", tags: ["Bistro@MKR, Booster Juice"] },
     { name: "Gourmet Desserts", tags: ["Bistro@MKR"] },
     { name: "Waffles", tags: ["Bistro@MKR"] },
@@ -132,40 +159,37 @@ const data = [
     { name: "Falafel", tags: ["Bistro-2-Go", "vegetarian"] },
     { name: "Nashville Chicken", tags: ["Bistro-2-Go", "halal"] },
     { name: "Shawarma Chicken", tags: ["Bistro-2-Go", "halal"] },
-    { name: "Juice", tags: ["Booster Juice"] },
+    { name: "Juice", tags: ["Booster Juice", "The Reactor Cafe"] },
     { name: "Turkey Bacon Egg Mac", tags: ["Cafe One", "halal"] },
     { name: "Chicken Quesadilla", tags: ["Cafe One"] },
     { name: "Turkey Bacon Melt", tags: ["Cafe One"] },
     { name: "Grilled Cheese", tags: ["Cafe One", "vegetarian"] },
     { name: "Beef Burrito", tags: ["Cafe One"] },
     { name: "Soup of the Day Combo", tags: ["Cafe One"] },
-    { name: "Coffee", tags: ["Cafe One", "Tim Hortons", "Second Cup", "Starbucks"] },
-    { name: "Tea", tags: ["Cafe One", "Tim Hortons", "Second Cup", "Starbucks"] },
-    { name: "Hot Chocolate", tags: ["Cafe One", "Tim Hortons", "Second Cup", "Starbucks"] },
+    { name: "Coffee", tags: ["Cafe One", "Second Cup", "Starbucks", "Caffeine the Elements", "Fireball Cafe", "Tim Hortons", "E-Cafe", "IAHS Cafe", "Math Cafe"] },
+    { name: "Tea", tags: ["Cafe One", "Caffeine the Elements", "Tim Hortons", "Second Cup", "Starbucks", "E-Cafe", "Math Cafe", "IAHS Cafe"] },
+    { name: "Hot Chocolate", tags: ["Cafe One", "Tim Hortons", "Second Cup", "Starbucks", "Caffeine the Elements", "E-Cafe", "IAHS Cafe", "Math Cafe"] },
     { name: "Cappuccino", tags: ["Cafe One", "Tim Hortons", "Second Cup", "Starbucks"] },
     { name: "Assorted Breakfast Pastry", tags: ["Cafe One", "Tim Hortons", "Second Cup", "Starbucks"] },
     { name: "Assorted Savoury Pastry", tags: ["Cafe One", "Tim Hortons", "Second Cup", "Starbucks"] },
-    { name: "Cinnamon Bun", tags: ["Cafe One", "Tim Hortons", "Second Cup", "Starbucks"] },
+    { name: "Cinnamon Bun", tags: ["Cafe One", "Tim Hortons", "Second Cup", "Starbucks", "Math Cafe", "E-Cafe"] },
     { name: "Butter Croissant", tags: ["Cafe One", "Tim Hortons", "Second Cup", "Starbucks"] },
     { name: "Specialty Croissant", tags: ["Cafe One", "Tim Hortons", "Second Cup", "Starbucks"] },
-    { name: "Assorted Muffin", tags: ["Cafe One", "Tim Hortons", "Second Cup", "Starbucks"] },
-    { name: "Assorted Cookie", tags: ["Cafe One", "Tim Hortons", "Second Cup", "Starbucks"] },
+    { name: "Assorted Muffins", tags: ["Cafe One", "Tim Hortons", "Second Cup", "Starbucks", "Math Cafe", "E-Cafe"] },
+    { name: "Assorted Cookies", tags: ["Cafe One", "Tim Hortons", "Second Cup", "Starbucks", "Math Cafe", "E-Cafe"] },
     { name: "Assorted Donut (Regular)", tags: ["Cafe One", "Tim Hortons", "Second Cup", "Starbucks"] },
     { name: "Assorted Donut (Premium)", tags: ["Cafe One", "Tim Hortons", "Second Cup", "Starbucks"] },
     { name: "Assorted Danish", tags: ["Cafe One", "Tim Hortons", "Second Cup", "Starbucks"] },
-    { name: "Coffee", tags: ["Caffeine the Elements", "Fireball Cafe", "Starbucks", "Tim Hortons", "Second Cup"] },
-    { name: "Tea", tags: ["Caffeine the Elements", "Tim Hortons", "Second Cup", "Starbucks"] },
-    { name: "Hot Chocolate", tags: ["Caffeine the Elements", "Tim Hortons", "Second Cup", "Starbucks"] },
     { name: "Americano", tags: ["Caffeine the Elements", "Tim Hortons", "Second Cup", "Starbucks"] },
-    { name: "Cappuccino", tags: ["Caffeine the Elements", "Tim Hortons", "Second Cup", "Starbucks"] },
+    { name: "Cappuccino", tags: ["Caffeine the Elements", "Tim Hortons", "Second Cup", "Cafe One", "Starbucks", "IAHS Cafe", "Math Cafe", "The Reactor Cafe"] },
     { name: "Hot Latte", tags: ["Caffeine the Elements", "Tim Hortons", "Second Cup", "Starbucks"] },
     { name: "Mocha", tags: ["Caffeine the Elements", "Tim Hortons", "Second Cup", "Starbucks"] },
     { name: "Espresso", tags: ["Caffeine the Elements", "Tim Hortons", "Second Cup", "Starbucks"] },
     { name: "Cold Brewed Iced Tea", tags: ["Caffeine the Elements", "Tim Hortons", "Second Cup", "Starbucks"] },
-    { name: "Iced Coffee", tags: ["Caffeine the Elements", "Tim Hortons", "Second Cup", "Starbucks"] },
+    { name: "Iced Coffee", tags: ["Caffeine the Elements", "Tim Hortons", "Second Cup", "Starbucks", "Math Cafe"] },
     { name: "Infused Lemonade", tags: ["Caffeine the Elements", "Tim Hortons", "Second Cup", "Starbucks"] },
     { name: "Handcrafted Soda", tags: ["Caffeine the Elements", "Tim Hortons", "Second Cup", "Starbucks"] },
-    { name: "Iced Latte", tags: ["Caffeine the Elements", "Tim Hortons", "Second Cup", "Starbucks"] },
+    { name: "Iced Latte", tags: ["Caffeine the Elements", "Tim Hortons", "Second Cup", "Starbucks", "The Reactor Cafe"] },
     { name: "Green Tea Matcha", tags: ["Caffeine the Elements", "Tim Hortons", "Second Cup", "Starbucks"] },
     { name: "London Fog Latte", tags: ["Caffeine the Elements", "Tim Hortons", "Second Cup", "Starbucks"] },
     { name: "Pumpkin Spice", tags: ["Caffeine the Elements", "Tim Hortons", "Second Cup", "Starbucks"] },     
@@ -252,7 +276,7 @@ const data = [
     { name: "Full Fruit Waffle", tags: ["CRAVEABLES", "vegetarian", "CENTRO@Commons"] },
     { name: "Half Waffle with Fruit", tags: ["CRAVEABLES", "vegetarian", "CENTRO@Commons"] },
     { name: "Full Waffle with Syrup", tags: ["CRAVEABLES", "vegetarian", "CENTRO@Commons"] },
-    { name: "Milkshakes", tags: ["CRAVEABLES", "CENTRO@Commons"] },
+    { name: "Milkshakes", tags: ["CRAVEABLES", "CENTRO@Commons", "Bistro@MKR"] },
     { name: "Sundaes", tags: ["CRAVEABLES", "CENTRO@Commons"] },
     { name: "Good Morning Classic", tags: ["STEELTOWN GRILLE", "CENTRO@Commons"] },
     { name: "Plant-based Breakfast Burrito", tags: ["STEELTOWN GRILLE", "vegan", "CENTRO@Commons"] },
@@ -261,8 +285,6 @@ const data = [
     { name: "Two Egg Breakfast", tags: ["STEELTOWN GRILLE", "vegetarian", "CENTRO@Commons"] },
     { name: "Korean Street Toast", tags: ["STEELTOWN GRILLE", "CENTRO@Commons"] },
     { name: "Chipotle Steak and Egg Wrap", tags: ["STEELTOWN GRILLE", "halal", "CENTRO@Commons"] },
-    { name: "Extra egg", tags: ["STEELTOWN GRILLE", "vegetarian", "gluten free", "CENTRO@Commons"] },
-    { name: "Extra hashbrown", tags: ["STEELTOWN GRILLE", "vegan", "CENTRO@Commons"] },
     { name: "Sausage", tags: ["STEELTOWN GRILLE", "gluten free", "CENTRO@Commons"] },
     { name: "Bacon", tags: ["STEELTOWN GRILLE", "gluten free", "CENTRO@Commons"] },
     { name: "Turkey Bacon", tags: ["STEELTOWN GRILLE", "gluten free", "CENTRO@Commons"] },
@@ -283,22 +305,12 @@ const data = [
     { name: "Sweet Potato Fries", tags: ["STEELTOWN GRILLE", "vegan", "CENTRO@Commons"] },
     { name: "House-made Gravy", tags: ["STEELTOWN GRILLE", "vegan", "gluten free", "CENTRO@Commons"] },
     { name: "Side Tater Tots", tags: ["STEELTOWN GRILLE", "vegan", "CENTRO@Commons"] },
-    { name: "Coffee", tags: ["E-Cafe"] },
-    { name: "Tea", tags: ["E-Cafe"] },
-    { name: "Hot Chocolate", tags: ["E-Cafe"] },
     { name: "Flavoured Cappuccino", tags: ["E-Cafe"] },
     { name: "French Vanilla", tags: ["E-Cafe"] },
-    { name: "Assorted Muffins", tags: ["E-Cafe"] },
-    { name: "Assorted Cookies", tags: ["E-Cafe"] },
-    { name: "Croissant", tags: ["E-Cafe"] },
-    { name: "Cheese Croissant", tags: ["E-Cafe"] },
-    { name: "Chocolate Croissant", tags: ["E-Cafe"] },
-    { name: "Cinnamon Buns", tags: ["E-Cafe"] },
     { name: "Assorted Danish", tags: ["E-Cafe"] },
     { name: "Savoury Pastry", tags: ["E-Cafe"] },
     { name: "Strudel", tags: ["E-Cafe"] },
     { name: "Assorted Donut Regular", tags: ["E-Cafe"] },
-    { name: "Premium", tags: ["E-Cafe"] }, 
     { name: "Chicken Quesadilla", tags: ["IAHS Cafe"] },
     { name: "Grilled Cheese", tags: ["IAHS Cafe", "vegetarian"] },
     { name: "Pretzel Reuben Melt", tags: ["IAHS Cafe"] },
@@ -310,10 +322,6 @@ const data = [
     { name: "Southwest Rice Bowl", tags: ["IAHS Cafe", "gluten free"] },
     { name: "Chicken Shawarma Rice Bowl", tags: ["IAHS Cafe", "halal"] },
     { name: "Mediterranean Rice Bowl", tags: ["IAHS Cafe", "gluten free", "halal"] },
-    { name: "Coffee", tags: ["IAHS Cafe"] },
-    { name: "Tea", tags: ["IAHS Cafe"] },
-    { name: "Cappuccino", tags: ["IAHS Cafe"] },
-    { name: "Hot Chocolate", tags: ["IAHS Cafe"] },
     { name: "Ultimate Egg Breakfast Sandwich", tags: ["IAHS Cafe"] },
     { name: "Ultimate Tofu Breakfast Sandwich", tags: ["IAHS Cafe", "vegan"] },
     { name: "Toasted Western", tags: ["IAHS Cafe"] },
@@ -339,20 +347,12 @@ const data = [
     { name: "Spicy Salmon Sushi Bowl", tags: ["Teriyaki"] },
     { name: "Dynamite Sushi Bowl", tags: ["Teriyaki"] },
     { name: "Salmon Poke Bowl", tags: ["Teriyaki"] },
-    { name: "Coffee", tags: ["Math Cafe"] },
-    { name: "Tea", tags: ["Math Cafe"] },
-    { name: "Hot Chocolate", tags: ["Math Cafe"] },
-    { name: "Cappuccino", tags: ["Math Cafe"] },
     { name: "Ice London Fog", tags: ["Math Cafe"] },
     { name: "Iced Matcha Tea", tags: ["Math Cafe"] },
     { name: "Iced Chai Latte", tags: ["Math Cafe"] },
-    { name: "Iced Coffee", tags: ["Math Cafe"] },
-    { name: "Assorted Muffins", tags: ["Math Cafe"] },
-    { name: "Assorted Cookies", tags: ["Math Cafe"] },
-    { name: "Croissant", tags: ["Math Cafe"] },
-    { name: "Cheese Croissant", tags: ["Math Cafe"] },
-    { name: "Chocolate Croissant", tags: ["Math Cafe"] },
-    { name: "Cinnamon Buns", tags: ["Math Cafe"] },
+    { name: "Croissant", tags: ["Math Cafe", "E-Cafe"] },
+    { name: "Cheese Croissant", tags: ["Math Cafe", "E-Cafe"] },
+    { name: "Chocolate Croissant", tags: ["Math Cafe", "E-Cafe"] },
     { name: "Assorted Danish", tags: ["Math Cafe"] },
     { name: "Savoury Pastry", tags: ["Math Cafe"] },
     { name: "Strudel", tags: ["Math Cafe"] },
@@ -363,19 +363,16 @@ const data = [
     { name: "Hot Chocolate | Dark, White", tags: ["The Reactor Cafe"] },
     { name: "Cappuccino | French Vanilla", tags: ["The Reactor Cafe"] },
     { name: "Americano", tags: ["The Reactor Cafe"] },
-    { name: "Cappuccino", tags: ["The Reactor Cafe"] },
     { name: "Latte", tags: ["The Reactor Cafe"] },
     { name: "Tea Latte | Green, Chai", tags: ["The Reactor Cafe"] },
     { name: "London Fog", tags: ["The Reactor Cafe"] },
     { name: "Mocha | Dark, White", tags: ["The Reactor Cafe"] },
     { name: "Espresso | Single, Double", tags: ["The Reactor Cafe"] },
     { name: "Iced Coffee | Vanilla, Hazelnut, Caramel", tags: ["The Reactor Cafe"] },
-    { name: "Iced Latte", tags: ["The Reactor Cafe"] },
     { name: "Iced Tea Latte | Green, Chai", tags: ["The Reactor Cafe"] },
     { name: "Dasani", tags: ["The Reactor Cafe"] },
     { name: "Smart Water", tags: ["The Reactor Cafe"] },
     { name: "Vitamin Water", tags: ["The Reactor Cafe"] },
-    { name: "Juice", tags: ["The Reactor Cafe"] },
     { name: "Pop", tags: ["The Reactor Cafe"] },
     { name: "2% or Chocolate Milk", tags: ["The Reactor Cafe"] },
     { name: "Pizza | Pepperoni, Vegetarian, Chicken", tags: ["The Reactor Cafe", "halal", "vegetarian"] },
@@ -437,12 +434,7 @@ const data = [
     { name: "Three Egg Omelette", tags: ["La Piazza", "vegetarian"] },
     { name: "Three Egg Omelette Wrap", tags: ["La Piazza", "vegetarian"] },
     { name: "Two Egg Breakfast", tags: ["La Piazza"] },
-    { name: "Extra Egg", tags: ["La Piazza"] },
-    { name: "Extra Hashbrown", tags: ["La Piazza"] },
-    { name: "Extra Cheese", tags: ["La Piazza"] },
-    { name: "Extra Toast", tags: ["La Piazza"] },
     { name: "Bacon or Ham", tags: ["La Piazza"] },
-    { name: "Extra Topping", tags: ["La Piazza"] },
     { name: "Mac & Cheese", tags: ["La Piazza", "vegetarian"] },
     { name: "Chicken of the Week", tags: ["La Piazza", "halal"] },
     { name: "Mac & Cheese Cup", tags: ["La Piazza", "vegetarian"] },
@@ -454,7 +446,6 @@ const data = [
     { name: "Chow Mein Noodle", tags: ["La Piazza", "Noodle Bar", "vegetarian"] },
     { name: "Gyoza", tags: ["La Piazza", "Noodle Bar", "vegan"] },
     { name: "Veggie Spring Rolls", tags: ["La Piazza", "Noodle Bar", "vegan"] },
-    { name: "Extra Meat", tags: ["La Piazza", "Noodle Bar"] },
     { name: "Egg McMaster with Cheese", tags: ["La Piazza", "Hammertown", "vegetarian"] },
     { name: "Big Breakfast Crunch", tags: ["La Piazza", "Hammertown"] },
     { name: "Egg Mac with Tomato", tags: ["La Piazza", "Hammertown", "vegetarian"] },
@@ -528,8 +519,9 @@ const data = [
     { name: "Burrito with Guacamole", tags: ["La Piazza", "Burritos", "vegan"] },
     { name: "Cured Salmon Bowl", tags: ["La Piazza", "Indigenous Bannock Bowls"] },
     { name: "Blueberry Chicken Bowl", tags: ["La Piazza", "Indigenous Bannock Bowls", "halal"] },
-    { name: "Three Sisters Bowl", tags: ["La Piazza", "Indigenous Bannock Bowls"] }
-    
+    { name: "Three Sisters Bowl", tags: ["La Piazza", "Indigenous Bannock Bowls"] },
+    { name: "Pizza", tags: ["La Piazza", "Pizza Pizza", "IAHS Cafe"] }
+
 ]; 
 
 
