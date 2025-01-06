@@ -407,7 +407,6 @@ const data = [
     { name: "Jalapeno Popper Grilled Cheese", tags: ["Williams Fresh Cafe", "vegetarian"] },
     { name: "Classic Grilled Cheese", tags: ["Williams Fresh Cafe", "vegetarian"] },
     { name: "Mango Chipotle Chicken", tags: ["Williams Fresh Cafe", "halal"] },
-    { name: "Vegetarian", tags: ["Williams Fresh Cafe", "vegetarian"] },
     { name: "Roasted Red Pepper & Tomato Bisque", tags: ["Williams Fresh Cafe", "vegetarian"] },
     { name: "Soup of the day", tags: ["Williams Fresh Cafe"] },
     { name: "Williams Signature Blend Coffee", tags: ["Williams Fresh Cafe"] },
