@@ -1,0 +1,1 @@
+To accurately reflect changing menus at McMaster, this site needs to be updated. If you would like to contribute, notice a bug, or have an idea, please create a pull request or message me on LinkedIn and we can figure it out from there! 
