@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MacEats</title>
     <link rel="stylesheet" href="css/styles.css">
+
+    <script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+
 </head>
 <body>
     <div class="container">
@@ -12,7 +18,7 @@
         <div class="search-container">
             <input type="text" id="searchInput" placeholder="Search for food...">
             <button id="searchButton">Search</button>
-            <!-- <div class="top-foods">Or... check out Mac's top foods right now!</div> -->
+            <div class="top-foods">Or... check out Mac's <a href="top-foods.html">top foods</a> right now!</div>
         </div>
         <div id="results" class="results"></div>
     </div>

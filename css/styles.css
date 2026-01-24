@@ -167,3 +167,65 @@ footer {
     font-size: 0.9rem;
     border-top: 1px solid #ddd;
 } 
+
+.top-foods {
+    margin-top:30px;
+    width: 100%;
+}
+
+.result-item .likes {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#topFoods {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+    width: 100%;
+    max-width: 800px;     
+    padding: 20px;
+    margin: 0 auto;         
+    align-items: center;  
+}
+
+#topFoods .result-item {
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+    min-height: 100px;
+    user-select: none;
+    width: 80%;            
+    max-width: 600px;       
+}
+
+
+#topFoods .result-item h3 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+#topFoods .result-item p {
+    font-size: 0.9rem;
+    font-style: italic;
+    margin: 0;
+}
+
+#topFoods .result-item .likes {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 15px;
+    cursor: default; 
+    user-select: none;
+}
+
+
