@@ -2,7 +2,7 @@ let data = [];
 
 async function loadItems() {
     try {
-        const res = await fetch('/items');
+        const res = await fetch('/api/items');
         data = await res.json();
 
         displayTopFoods(data);

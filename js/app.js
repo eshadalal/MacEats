@@ -50,7 +50,7 @@ function displayResults(results) {
 
       likeDiv.addEventListener("click", async () => {
         try {
-          const res = await fetch(`/items/${result._id}/like`, {
+          const res = await fetch(`/api/items/${result._id}/like`, {
             method: "PUT",
           });
           const updatedItem = await res.json();
@@ -85,7 +85,7 @@ let data = [];
 
 async function loadItems() {
   try {
-    const res = await fetch("/items");
+    const res = await fetch("/api/items");
     data = await res.json();
     data.forEach((item) => {
       item._id = item._id.toString();
