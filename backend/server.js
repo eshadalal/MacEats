@@ -43,3 +43,25 @@ app.get('/items', async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 });
+
+const { ObjectId } = require('mongodb');
+
+app.put('/items/:id/like', async (req, res) => {
+  try {
+    const id = req.params.id;
+
+    const result = await itemsCollection.findOneAndUpdate(
+      { _id: new ObjectId(id) },
+      { $inc: { likeCount: 1 } },
+      { returnDocument: 'after' }
+    );
+
+    if (!result.value) {
+      return res.status(404).json({ error: 'Item not found' });
+    }
+
+    res.json({ _id: result.value._id, likeCount: result.value.likeCount || 0 });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});

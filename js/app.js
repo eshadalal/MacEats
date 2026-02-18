@@ -3,12 +3,15 @@ const searchButton = document.querySelector("button");
 
 searchButton.addEventListener("click", () => {
   const query = searchInput.value.trim().toLowerCase();
-  if (!query) return;
+  if (!query) {
+    displayResults(data);
+    return;
+  }
 
   const results = data.filter(
     (item) =>
       item.name.toLowerCase().includes(query) ||
-      (item.tags && item.tags.some((tag) => tag.toLowerCase().includes(query)))
+      (item.tags && item.tags.some((tag) => tag.toLowerCase().includes(query))),
   );
 
   displayResults(results);
@@ -42,13 +45,25 @@ function displayResults(results) {
       likeDiv.style.fontSize = "15px";
       likeDiv.style.marginTop = "5px";
 
-      if (!result.likes) result.likes = 0;
-      updateLikes(likeDiv, result.likes);
+      if (result.likeCount == null) result.likeCount = 0;
+      updateLikes(likeDiv, result.likeCount);
 
-      likeDiv.addEventListener("click", () => {
-        result.likes += 1;
-        updateLikes(likeDiv, result.likes);
-        saveLikes();
+      likeDiv.addEventListener("click", async () => {
+        try {
+          const res = await fetch(`/items/${result._id}/like`, {
+            method: "PUT",
+          });
+          const updatedItem = await res.json();
+
+          const dataItem = data.find((d) => d._id === result._id);
+          if (dataItem) dataItem.likeCount = updatedItem.likeCount ?? 0;
+
+          result.likeCount = updatedItem.likeCount ?? 0;
+
+          updateLikes(likeDiv, result.likeCount);
+        } catch (err) {
+          console.error("Failed to like item:", err);
+        }
       });
 
       item.appendChild(likeDiv);
@@ -66,30 +81,17 @@ function updateLikes(container, count) {
   container.textContent = `♡ ${count}`;
 }
 
-function saveLikes() {
-  localStorage.setItem("foodLikes", JSON.stringify(data));
-}
-
-function loadLikes() {
-  const saved = localStorage.getItem("foodLikes");
-  if (saved) {
-    const savedData = JSON.parse(saved);
-    data.forEach((item) => {
-      const savedItem = savedData.find((d) => d.name === item.name);
-      if (savedItem && savedItem.likes) {
-        item.likes = savedItem.likes;
-      }
-    });
-  }
-}
-
 let data = [];
 
 async function loadItems() {
   try {
-    const res = await fetch("items.json");
+    const res = await fetch("/items");
     data = await res.json();
-    loadLikes();
+    data.forEach((item) => {
+      item._id = item._id.toString();
+      if (item.likeCount == null) item.likeCount = 0;
+    });
+
     displayResults(data);
   } catch (err) {
     console.error("Failed to load items:", err);
