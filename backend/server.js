@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({ path: '../.env' }); 
 const express = require('express');
 const { MongoClient } = require('mongodb');
 const path = require('path');
@@ -35,7 +35,7 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '..', 'index.html'));
 });
 
-app.get('/items', async (req, res) => {
+app.get('/api/items', async (req, res) => {
   try {
     const items = await itemsCollection.find().toArray();
     res.json(items);
@@ -46,7 +46,7 @@ app.get('/items', async (req, res) => {
 
 const { ObjectId } = require('mongodb');
 
-app.put('/items/:id/like', async (req, res) => {
+app.put('/api/items/:id/like', async (req, res) => {
   try {
     const id = req.params.id;
 

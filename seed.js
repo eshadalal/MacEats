@@ -1,5 +1,5 @@
 require('dotenv').config();
-const { MongoClient } = require('mongodb');
+const { MongoClient, ObjectId } = require('mongodb');
 const items = require('./items.json');
 
 async function seed() {
@@ -11,8 +11,9 @@ async function seed() {
     const db = client.db("mydb");
     const collection = db.collection("items");
     await collection.deleteMany({});
-    await collection.insertMany(items);
-    console.log("Items inserted:", items.length);
+    const itemsWithIds = items.map(item => ({ ...item, _id: new ObjectId() }));
+    await collection.insertMany(itemsWithIds);
+    console.log("Items inserted:", itemsWithIds.length);
   } catch (err) {
     console.error("Error:", err);
   } finally {
