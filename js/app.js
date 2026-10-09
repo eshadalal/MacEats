@@ -2,10 +2,8 @@ const searchInput = document.getElementById("searchInput");
 const searchButton = document.getElementById("searchButton");
 const resultsContainer = document.getElementById("results");
 const status = document.getElementById("status");
-const likesStorageKey = "maceats-local-likes";
 
 let data = [];
-let apiIsAvailable = false;
 
 searchButton.addEventListener("click", searchItems);
 searchInput.addEventListener("keydown", (event) => {
@@ -70,53 +68,28 @@ async function likeItem(item, button) {
   button.disabled = true;
 
   try {
-    if (apiIsAvailable) {
-      const response = await fetch(`/api/items/${encodeURIComponent(item._id)}`, { method: "PUT" });
-      if (!response.ok) throw new Error(`API responded with ${response.status}`);
-      const updatedItem = await response.json();
-      item.likeCount = Number(updatedItem.likeCount) || 0;
-    } else {
-      item.likeCount += 1;
-      saveLocalLike(item);
-    }
+    const response = await fetch(`/api/items/${encodeURIComponent(item._id)}`, { method: "PUT" });
+    if (!response.ok) throw new Error(`API responded with ${response.status}`);
+    const updatedItem = await response.json();
+    item.likeCount = Number(updatedItem.likeCount) || 0;
 
     updateLikes(button, item.likeCount);
   } catch (error) {
-    // The menu remains useful when the optional server is offline.
-    console.warn("Falling back to likes saved in this browser:", error);
-    apiIsAvailable = false;
-    item.likeCount += 1;
-    saveLocalLike(item);
-    updateLikes(button, item.likeCount);
-    status.textContent = "Saved your like on this device.";
+    console.error("Failed to save like:", error);
+    status.textContent = "We couldn’t save your like. Please try again.";
   } finally {
     button.disabled = false;
   }
 }
 
-function getLocalLikes() {
-  try {
-    return JSON.parse(localStorage.getItem(likesStorageKey)) || {};
-  } catch {
-    return {};
-  }
-}
-
-function saveLocalLike(item) {
-  const likes = getLocalLikes();
-  likes[item._id] = item.likeCount;
-  localStorage.setItem(likesStorageKey, JSON.stringify(likes));
-}
-
-function normaliseItems(items, useLocalLikes) {
-  const localLikes = useLocalLikes ? getLocalLikes() : {};
+function normaliseItems(items) {
   return items.map((item) => {
     const id = String(item._id ?? item.id);
     return {
       ...item,
       _id: id,
       tags: Array.isArray(item.tags) ? item.tags : [],
-      likeCount: Number(useLocalLikes ? (localLikes[id] ?? item.likeCount) : item.likeCount) || 0,
+      likeCount: Number(item.likeCount) || 0,
     };
   });
 }
@@ -133,18 +106,11 @@ async function loadItems() {
   status.textContent = "Loading the menu…";
 
   try {
-    data = normaliseItems(await getJson("/api/items"), false);
-    apiIsAvailable = true;
-  } catch (apiError) {
-    try {
-      data = normaliseItems(await getJson("items.json"), true);
-      apiIsAvailable = false;
-      console.info("Menu API unavailable; using bundled menu data.", apiError);
-    } catch (dataError) {
-      console.error("Failed to load menu data:", dataError);
-      status.textContent = "We couldn’t load the menu. Please refresh and try again.";
-      return;
-    }
+    data = normaliseItems(await getJson("/api/items"));
+  } catch (error) {
+    console.error("Failed to load menu data:", error);
+    status.textContent = "We couldn’t load the shared menu. Please refresh and try again.";
+    return;
   }
 
   displayResults(data);

@@ -1,25 +1,14 @@
 let data = [];
-const likesStorageKey = "maceats-local-likes";
 
 async function loadItems() {
     try {
-        const { items, useLocalLikes } = await getItems();
-        data = normaliseItems(items, useLocalLikes);
+        data = normaliseItems(await getJson('/api/items'));
         displayTopFoods(data);
     } catch (err) {
         console.error('Failed to load items:', err);
         const container = document.getElementById('topFoods');
         container.classList.add('empty-results');
         container.textContent = 'We couldn’t load the menu. Please refresh and try again.';
-    }
-}
-
-async function getItems() {
-    try {
-        return { items: await getJson('/api/items'), useLocalLikes: false };
-    } catch (apiError) {
-        console.info('Menu API unavailable; using bundled menu data.', apiError);
-        return { items: await getJson('items.json'), useLocalLikes: true };
     }
 }
 
@@ -32,24 +21,14 @@ async function getJson(url) {
     return items;
 }
 
-function getLocalLikes() {
-    try {
-        return JSON.parse(localStorage.getItem(likesStorageKey)) || {};
-    } catch {
-        return {};
-    }
-}
-
-function normaliseItems(items, useLocalLikes) {
-    const localLikes = useLocalLikes ? getLocalLikes() : {};
-
+function normaliseItems(items) {
     return items.map((item) => {
         const id = String(item._id ?? item.id);
         return {
             ...item,
             _id: id,
             tags: Array.isArray(item.tags) ? item.tags : [],
-            likeCount: Number(useLocalLikes ? (localLikes[id] ?? item.likeCount) : item.likeCount) || 0,
+            likeCount: Number(item.likeCount) || 0,
         };
     });
 }
