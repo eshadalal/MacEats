@@ -1,8 +1,10 @@
 let data = [];
+const likesStorageKey = "maceats-local-likes";
 
 async function loadItems() {
     try {
-        data = await getItems();
+        const { items, useLocalLikes } = await getItems();
+        data = normaliseItems(items, useLocalLikes);
         displayTopFoods(data);
     } catch (err) {
         console.error('Failed to load items:', err);
@@ -14,10 +16,10 @@ async function loadItems() {
 
 async function getItems() {
     try {
-        return await getJson('/api/items');
+        return { items: await getJson('/api/items'), useLocalLikes: false };
     } catch (apiError) {
         console.info('Menu API unavailable; using bundled menu data.', apiError);
-        return getJson('items.json');
+        return { items: await getJson('items.json'), useLocalLikes: true };
     }
 }
 
@@ -30,12 +32,36 @@ async function getJson(url) {
     return items;
 }
 
+function getLocalLikes() {
+    try {
+        return JSON.parse(localStorage.getItem(likesStorageKey)) || {};
+    } catch {
+        return {};
+    }
+}
+
+function normaliseItems(items, useLocalLikes) {
+    const localLikes = useLocalLikes ? getLocalLikes() : {};
+
+    return items.map((item) => {
+        const id = String(item._id ?? item.id);
+        return {
+            ...item,
+            _id: id,
+            tags: Array.isArray(item.tags) ? item.tags : [],
+            likeCount: Number(useLocalLikes ? (localLikes[id] ?? item.likeCount) : item.likeCount) || 0,
+        };
+    });
+}
+
 function displayTopFoods(items) {
     const container = document.getElementById('topFoods');
     container.replaceChildren();
     container.classList.remove('empty-results');
 
-    const sorted = items.sort((a, b) => (b.likeCount || 0) - (a.likeCount || 0));
+    const sorted = [...items].sort((a, b) =>
+        (b.likeCount || 0) - (a.likeCount || 0) || a.name.localeCompare(b.name),
+    );
 
     sorted.forEach(item => {
         const div = document.createElement('div');
