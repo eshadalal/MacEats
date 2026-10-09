@@ -2,18 +2,38 @@ let data = [];
 
 async function loadItems() {
     try {
-        const res = await fetch('/api/items');
-        data = await res.json();
-
+        data = await getItems();
         displayTopFoods(data);
     } catch (err) {
         console.error('Failed to load items:', err);
+        const container = document.getElementById('topFoods');
+        container.classList.add('empty-results');
+        container.textContent = 'We couldn’t load the menu. Please refresh and try again.';
     }
+}
+
+async function getItems() {
+    try {
+        return await getJson('/api/items');
+    } catch (apiError) {
+        console.info('Menu API unavailable; using bundled menu data.', apiError);
+        return getJson('items.json');
+    }
+}
+
+async function getJson(url) {
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`${url} responded with ${response.status}`);
+
+    const items = await response.json();
+    if (!Array.isArray(items)) throw new Error(`${url} did not return a food list`);
+    return items;
 }
 
 function displayTopFoods(items) {
     const container = document.getElementById('topFoods');
-    container.innerHTML = '';
+    container.replaceChildren();
+    container.classList.remove('empty-results');
 
     const sorted = items.sort((a, b) => (b.likeCount || 0) - (a.likeCount || 0));
 

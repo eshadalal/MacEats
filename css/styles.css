@@ -66,6 +66,18 @@ button:hover {
     height: calc(100vh - 120px); 
 }
 
+.status {
+    min-height: 1.5rem;
+    color: #555;
+    margin-top: 14px;
+}
+
+.empty-results {
+    display: block;
+    height: auto;
+    color: #555;
+}
+
 .result-item {
     position: relative;
     width: 100%;
@@ -180,6 +192,23 @@ footer {
     font-size: 15px;
     cursor: pointer;
     user-select: none;
+    margin: 0;
+    border: 0;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.92);
+    color: #7A003C;
+    font-weight: 700;
+}
+
+.result-item .likes:hover,
+.result-item .likes:focus-visible {
+    background-color: #FDBF57;
+    color: #3d001e;
+}
+
+.result-item .likes:disabled {
+    cursor: progress;
+    opacity: 0.75;
 }
 
 #topFoods {
@@ -227,5 +256,4 @@ footer {
     cursor: default; 
     user-select: none;
 }
-
 

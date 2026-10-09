@@ -1,101 +1,154 @@
-const searchInput = document.querySelector('input[type="text"]');
-const searchButton = document.querySelector("button");
+const searchInput = document.getElementById("searchInput");
+const searchButton = document.getElementById("searchButton");
+const resultsContainer = document.getElementById("results");
+const status = document.getElementById("status");
+const likesStorageKey = "maceats-local-likes";
 
-searchButton.addEventListener("click", () => {
+let data = [];
+let apiIsAvailable = false;
+
+searchButton.addEventListener("click", searchItems);
+searchInput.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") searchItems();
+});
+
+function searchItems() {
   const query = searchInput.value.trim().toLowerCase();
-  if (!query) {
-    displayResults(data);
+  const results = !query
+    ? data
+    : data.filter(
+        (item) =>
+          item.name.toLowerCase().includes(query) ||
+          item.tags.some((tag) => tag.toLowerCase().includes(query)),
+      );
+
+  displayResults(results);
+  status.textContent = query
+    ? `${results.length} food${results.length === 1 ? "" : "s"} found.`
+    : `${data.length} food${data.length === 1 ? "" : "s"} available.`;
+}
+
+function displayResults(results) {
+  resultsContainer.replaceChildren();
+
+  if (results.length === 0) {
+    resultsContainer.classList.add("empty-results");
+    resultsContainer.textContent = "No foods match that search.";
     return;
   }
 
-  const results = data.filter(
-    (item) =>
-      item.name.toLowerCase().includes(query) ||
-      (item.tags && item.tags.some((tag) => tag.toLowerCase().includes(query))),
-  );
+  resultsContainer.classList.remove("empty-results");
+  results.forEach((result) => {
+    const item = document.createElement("article");
+    item.className = "result-item";
 
-  displayResults(results);
-});
+    const name = document.createElement("h3");
+    name.textContent = result.name;
+    item.appendChild(name);
 
-function displayResults(results) {
-  const container = document.querySelector(".container");
-  const oldResults = document.querySelector(".results");
-  if (oldResults) oldResults.remove();
+    const tags = document.createElement("p");
+    tags.textContent = result.tags.join(", ");
+    item.appendChild(tags);
 
-  const resultsDiv = document.createElement("div");
-  resultsDiv.className = "results";
+    const likeButton = document.createElement("button");
+    likeButton.className = "likes";
+    likeButton.type = "button";
+    updateLikes(likeButton, result.likeCount);
+    likeButton.addEventListener("click", () => likeItem(result, likeButton));
+    item.appendChild(likeButton);
 
-  if (results.length > 0) {
-    results.forEach((result) => {
-      const item = document.createElement("div");
-      item.className = "result-item";
+    resultsContainer.appendChild(item);
+  });
+}
 
-      const name = document.createElement("h3");
-      name.textContent = result.name;
-      item.appendChild(name);
+function updateLikes(button, count) {
+  button.textContent = `♡ ${count}`;
+  button.setAttribute("aria-label", `Like ${button.closest("article")?.querySelector("h3")?.textContent || "this food"}. ${count} likes.`);
+}
 
-      const tags = document.createElement("p");
-      tags.textContent = result.tags.join(", ");
-      item.appendChild(tags);
+async function likeItem(item, button) {
+  button.disabled = true;
 
-      const likeDiv = document.createElement("div");
-      likeDiv.className = "likes";
-      likeDiv.style.cursor = "pointer";
-      likeDiv.style.userSelect = "none";
-      likeDiv.style.fontSize = "15px";
-      likeDiv.style.marginTop = "5px";
+  try {
+    if (apiIsAvailable) {
+      const response = await fetch(`/api/items/${encodeURIComponent(item._id)}`, { method: "PUT" });
+      if (!response.ok) throw new Error(`API responded with ${response.status}`);
+      const updatedItem = await response.json();
+      item.likeCount = Number(updatedItem.likeCount) || 0;
+    } else {
+      item.likeCount += 1;
+      saveLocalLike(item);
+    }
 
-      if (result.likeCount == null) result.likeCount = 0;
-      updateLikes(likeDiv, result.likeCount);
-
-      likeDiv.addEventListener("click", async () => {
-        try {
-          const res = await fetch(`/api/items/${result._id}/like`, {
-            method: "PUT",
-          });
-          const updatedItem = await res.json();
-
-          const dataItem = data.find((d) => d._id === result._id);
-          if (dataItem) dataItem.likeCount = updatedItem.likeCount ?? 0;
-
-          result.likeCount = updatedItem.likeCount ?? 0;
-
-          updateLikes(likeDiv, result.likeCount);
-        } catch (err) {
-          console.error("Failed to like item:", err);
-        }
-      });
-
-      item.appendChild(likeDiv);
-
-      resultsDiv.appendChild(item);
-    });
-  } else {
-    resultsDiv.textContent = "No results found.";
+    updateLikes(button, item.likeCount);
+  } catch (error) {
+    // The menu remains useful when the optional server is offline.
+    console.warn("Falling back to likes saved in this browser:", error);
+    apiIsAvailable = false;
+    item.likeCount += 1;
+    saveLocalLike(item);
+    updateLikes(button, item.likeCount);
+    status.textContent = "Saved your like on this device.";
+  } finally {
+    button.disabled = false;
   }
-
-  container.appendChild(resultsDiv);
 }
 
-function updateLikes(container, count) {
-  container.textContent = `♡ ${count}`;
+function getLocalLikes() {
+  try {
+    return JSON.parse(localStorage.getItem(likesStorageKey)) || {};
+  } catch {
+    return {};
+  }
 }
 
-let data = [];
+function saveLocalLike(item) {
+  const likes = getLocalLikes();
+  likes[item._id] = item.likeCount;
+  localStorage.setItem(likesStorageKey, JSON.stringify(likes));
+}
+
+function normaliseItems(items, useLocalLikes) {
+  const localLikes = useLocalLikes ? getLocalLikes() : {};
+  return items.map((item) => {
+    const id = String(item._id ?? item.id);
+    return {
+      ...item,
+      _id: id,
+      tags: Array.isArray(item.tags) ? item.tags : [],
+      likeCount: Number(useLocalLikes ? (localLikes[id] ?? item.likeCount) : item.likeCount) || 0,
+    };
+  });
+}
+
+async function getJson(url) {
+  const response = await fetch(url);
+  if (!response.ok) throw new Error(`${url} responded with ${response.status}`);
+  const items = await response.json();
+  if (!Array.isArray(items)) throw new Error(`${url} did not return a food list`);
+  return items;
+}
 
 async function loadItems() {
-  try {
-    const res = await fetch("/api/items");
-    data = await res.json();
-    data.forEach((item) => {
-      item._id = item._id.toString();
-      if (item.likeCount == null) item.likeCount = 0;
-    });
+  status.textContent = "Loading the menu…";
 
-    displayResults(data);
-  } catch (err) {
-    console.error("Failed to load items:", err);
+  try {
+    data = normaliseItems(await getJson("/api/items"), false);
+    apiIsAvailable = true;
+  } catch (apiError) {
+    try {
+      data = normaliseItems(await getJson("items.json"), true);
+      apiIsAvailable = false;
+      console.info("Menu API unavailable; using bundled menu data.", apiError);
+    } catch (dataError) {
+      console.error("Failed to load menu data:", dataError);
+      status.textContent = "We couldn’t load the menu. Please refresh and try again.";
+      return;
+    }
   }
+
+  displayResults(data);
+  status.textContent = `${data.length} foods available.`;
 }
 
 loadItems();
