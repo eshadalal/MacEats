@@ -195,7 +195,7 @@ footer {
     margin: 0;
     border: 0;
     border-radius: 999px;
-    background: rgba(255, 255, 255, 0.92);
+    background: transparent;
     color: #7A003C;
     font-weight: 700;
 }
@@ -256,4 +256,3 @@ footer {
     cursor: default; 
     user-select: none;
 }
-
