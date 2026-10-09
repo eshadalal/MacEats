@@ -50,8 +50,14 @@ function displayTopFoods(items) {
         name.textContent = item.name;
         div.appendChild(name);
 
+        const price = document.createElement('p');
+        price.className = 'price';
+        price.textContent = item.price;
+        div.appendChild(price);
+
         if (item.tags && item.tags.length) {
             const tags = document.createElement('p');
+            tags.className = 'tags';
             tags.textContent = item.tags.join(', ');
             div.appendChild(tags);
         }

@@ -44,7 +44,13 @@ function displayResults(results) {
     name.textContent = result.name;
     item.appendChild(name);
 
+    const price = document.createElement("p");
+    price.className = "price";
+    price.textContent = result.price;
+    item.appendChild(price);
+
     const tags = document.createElement("p");
+    tags.className = "tags";
     tags.textContent = result.tags.join(", ");
     item.appendChild(tags);
 

@@ -5,7 +5,8 @@
       "Bistro@MKR"
     ],
     "likeCount": 0,
-    "id": 1
+    "id": 1,
+    "price": "$8.39"
   },
   {
     "name": "Bistro’s Signature Skillet",
@@ -13,7 +14,8 @@
       "Bistro@MKR"
     ],
     "likeCount": 0,
-    "id": 2
+    "id": 2,
+    "price": "$10.99"
   },
   {
     "name": "Bistro’s Signature Shakshuka",
@@ -22,7 +24,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 3
+    "id": 3,
+    "price": "$7.99"
   },
   {
     "name": "Omelette Bar",
@@ -30,7 +33,8 @@
       "Bistro@MKR"
     ],
     "likeCount": 0,
-    "id": 4
+    "id": 4,
+    "price": "$8.39"
   },
   {
     "name": "Eggs Benedict",
@@ -38,7 +42,8 @@
       "Bistro@MKR"
     ],
     "likeCount": 0,
-    "id": 5
+    "id": 5,
+    "price": "$10.99"
   },
   {
     "name": "Eggs Florentine",
@@ -47,7 +52,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 6
+    "id": 6,
+    "price": "$9.99"
   },
   {
     "name": "Steak & Eggs",
@@ -56,7 +62,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 7
+    "id": 7,
+    "price": "$22.99"
   },
   {
     "name": "Local Steak",
@@ -64,7 +71,8 @@
       "Bistro@MKR"
     ],
     "likeCount": 0,
-    "id": 8
+    "id": 8,
+    "price": "$26.99"
   },
   {
     "name": "Beyond Burger",
@@ -73,7 +81,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 9
+    "id": 9,
+    "price": "$17.49"
   },
   {
     "name": "Grilled Chicken Breast / Tilapia",
@@ -83,7 +92,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 10
+    "id": 10,
+    "price": "$17.99"
   },
   {
     "name": "Grilled Caprese Sandwich",
@@ -92,7 +102,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 11
+    "id": 11,
+    "price": "$17.99"
   },
   {
     "name": "Spinach & Mushroom Fettuccine",
@@ -101,7 +112,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 12
+    "id": 12,
+    "price": "Full Size $14.99 · Lunch Bowl $9.99"
   },
   {
     "name": "Steak & Frites",
@@ -111,7 +123,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 13
+    "id": 13,
+    "price": "$19.99"
   },
   {
     "name": "Bistro 6oz Classic Burger",
@@ -120,7 +133,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 14
+    "id": 14,
+    "price": "$17.49"
   },
   {
     "name": "Korean Salmon Bites",
@@ -129,7 +143,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 15
+    "id": 15,
+    "price": "$16.99"
   },
   {
     "name": "Steak Sandwich",
@@ -138,7 +153,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 16
+    "id": 16,
+    "price": "$23.99"
   },
   {
     "name": "Mac & Cheese",
@@ -147,7 +163,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 17
+    "id": 17,
+    "price": "Full Size $13.99 · Lunch Bowl $8.99"
   },
   {
     "name": "Cheese Tortellini",
@@ -156,7 +173,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 18
+    "id": 18,
+    "price": "Full Size $14.99 · Lunch Bowl $9.99"
   },
   {
     "name": "Crispy Buttermilk Chicken Burger",
@@ -165,7 +183,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 19
+    "id": 19,
+    "price": "$17.99"
   },
   {
     "name": "Build Your Own Tex-Mex",
@@ -175,7 +194,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 20
+    "id": 20,
+    "price": "$9.99"
   },
   {
     "name": "Build Your Own Flatbread Pizza",
@@ -186,7 +206,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 21
+    "id": 21,
+    "price": "$12.99"
   },
   {
     "name": "Bruschetta & Arugula",
@@ -195,7 +216,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 22
+    "id": 22,
+    "price": "$13.99"
   },
   {
     "name": "Basil Pesto Pizza",
@@ -204,7 +226,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 23
+    "id": 23,
+    "price": "$13.99"
   },
   {
     "name": "Thai Chicken Flatbread",
@@ -213,7 +236,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 24
+    "id": 24,
+    "price": "$14.99"
   },
   {
     "name": "Teriyaki (Chicken or Tofu)",
@@ -221,7 +245,8 @@
       "Bistro@MKR"
     ],
     "likeCount": 0,
-    "id": 25
+    "id": 25,
+    "price": "Full Size $15.99 · Lunch Bowl $10.99"
   },
   {
     "name": "Japanese Udon Noodles",
@@ -231,7 +256,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 26
+    "id": 26,
+    "price": "Full Size $15.99 · Lunch Bowl $10.99"
   },
   {
     "name": "Chow Mein",
@@ -240,7 +266,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 27
+    "id": 27,
+    "price": "Full Size $14.99 · Lunch Bowl $9.99"
   },
   {
     "name": "General Tso (Chicken or Tofu)",
@@ -248,7 +275,8 @@
       "Bistro@MKR"
     ],
     "likeCount": 0,
-    "id": 28
+    "id": 28,
+    "price": "Full Size $15.99 · Lunch Bowl $10.99"
   },
   {
     "name": "Wok Fried Rice",
@@ -259,7 +287,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 29
+    "id": 29,
+    "price": "Full Size $14.99 · Lunch Bowl $9.99"
   },
   {
     "name": "Bulgogi Beef",
@@ -268,7 +297,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 30
+    "id": 30,
+    "price": "Full Size $15.99 · Lunch Bowl $10.99"
   },
   {
     "name": "Dim Sum",
@@ -276,7 +306,8 @@
       "Bistro@MKR"
     ],
     "likeCount": 0,
-    "id": 31
+    "id": 31,
+    "price": "Lunch Bowl $3.99"
   },
   {
     "name": "Tom Yum Soup",
@@ -285,7 +316,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 32
+    "id": 32,
+    "price": "$9.99"
   },
   {
     "name": "Mango Chicken",
@@ -295,7 +327,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 33
+    "id": 33,
+    "price": "Full Size $15.99 · Bowl $10.99"
   },
   {
     "name": "Panang Curry",
@@ -304,7 +337,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 34
+    "id": 34,
+    "price": "Full Size $16.49 · Bowl $10.99"
   },
   {
     "name": "Thai Spicy Noodle",
@@ -313,7 +347,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 35
+    "id": 35,
+    "price": "Full Size $15.99 · Lunch Bowl $10.99"
   },
   {
     "name": "Salmon & Mango Bowl",
@@ -322,7 +357,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 36
+    "id": 36,
+    "price": "$14.99"
   },
   {
     "name": "Mediterranean Salad",
@@ -332,7 +368,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 37
+    "id": 37,
+    "price": "$11.99"
   },
   {
     "name": "Gnocchi Tuscan Bake",
@@ -342,7 +379,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 38
+    "id": 38,
+    "price": "$14.99"
   },
   {
     "name": "Lemon Pepper Tilapia",
@@ -351,7 +389,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 39
+    "id": 39,
+    "price": "$17.99"
   },
   {
     "name": "Pork Carnitas Bowl",
@@ -360,7 +399,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 40
+    "id": 40,
+    "price": "$14.99"
   },
   {
     "name": "Rotisserie Chicken Feature",
@@ -370,7 +410,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 41
+    "id": 41,
+    "price": "$17.99"
   },
   {
     "name": "Chicken Chasseur",
@@ -380,7 +421,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 42
+    "id": 42,
+    "price": "$17.99"
   },
   {
     "name": "Lotus Bowl",
@@ -390,7 +432,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 43
+    "id": 43,
+    "price": "$11.99"
   },
   {
     "name": "BBQ Pork Ribs",
@@ -399,7 +442,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 44
+    "id": 44,
+    "price": "$18.99"
   },
   {
     "name": "Creamy Pumpkin Gnocchi",
@@ -409,7 +453,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 45
+    "id": 45,
+    "price": "$14.99"
   },
   {
     "name": "Chili Con Carne",
@@ -418,7 +463,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 46
+    "id": 46,
+    "price": "$16.99"
   },
   {
     "name": "3 Bean Taco Salad",
@@ -428,7 +474,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 47
+    "id": 47,
+    "price": "$15.99"
   },
   {
     "name": "BBQ Pulled Beef",
@@ -438,7 +485,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 48
+    "id": 48,
+    "price": "$17.99"
   },
   {
     "name": "Lentil Shepherd’s Pie",
@@ -448,7 +496,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 49
+    "id": 49,
+    "price": "$15.99"
   },
   {
     "name": "Vietnamese Caramel Pork",
@@ -457,7 +506,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 50
+    "id": 50,
+    "price": "$17.99"
   },
   {
     "name": "Mango Salad",
@@ -467,7 +517,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 51
+    "id": 51,
+    "price": "$14.99"
   },
   {
     "name": "Sri Lankan Chicken Curry",
@@ -477,7 +528,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 52
+    "id": 52,
+    "price": "$15.99"
   },
   {
     "name": "Red Lentil Dahl",
@@ -487,7 +539,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 53
+    "id": 53,
+    "price": "$15.99"
   },
   {
     "name": "Pork Souvlaki",
@@ -496,7 +549,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 54
+    "id": 54,
+    "price": "$17.99"
   },
   {
     "name": "Hummus Bowl",
@@ -506,7 +560,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 55
+    "id": 55,
+    "price": "$15.99"
   },
   {
     "name": "Mini Pancakes",
@@ -515,7 +570,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 56
+    "id": 56,
+    "price": "$7.99"
   },
   {
     "name": "Crepes",
@@ -524,7 +580,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 57
+    "id": 57,
+    "price": "$7.99"
   },
   {
     "name": "Whole Waffle",
@@ -533,7 +590,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 58
+    "id": 58,
+    "price": "$7.99"
   },
   {
     "name": "1/2 Waffle",
@@ -542,7 +600,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 59
+    "id": 59,
+    "price": "$4.99"
   },
   {
     "name": "Mac Wrap",
@@ -550,7 +609,8 @@
       "Bistro-2-Go"
     ],
     "likeCount": 0,
-    "id": 60
+    "id": 60,
+    "price": "$8.39"
   },
   {
     "name": "Veggie Mac Wrap",
@@ -559,7 +619,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 61
+    "id": 61,
+    "price": "$8.39"
   },
   {
     "name": "Peameal BLT",
@@ -567,7 +628,8 @@
       "Bistro-2-Go"
     ],
     "likeCount": 0,
-    "id": 62
+    "id": 62,
+    "price": "$6.99"
   },
   {
     "name": "Croissant Egg Sandwich",
@@ -576,7 +638,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 63
+    "id": 63,
+    "price": "$7.99"
   },
   {
     "name": "Avocado Toast",
@@ -585,7 +648,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 64
+    "id": 64,
+    "price": "$6.59"
   },
   {
     "name": "Egg and Cheese Bagel",
@@ -593,7 +657,8 @@
       "Bistro-2-Go"
     ],
     "likeCount": 0,
-    "id": 65
+    "id": 65,
+    "price": "$6.99"
   },
   {
     "name": "Bagel B.E.L.T",
@@ -601,7 +666,8 @@
       "Bistro-2-Go"
     ],
     "likeCount": 0,
-    "id": 66
+    "id": 66,
+    "price": "$6.59"
   },
   {
     "name": "Extra Protein",
@@ -609,7 +675,8 @@
       "Bistro-2-Go"
     ],
     "likeCount": 0,
-    "id": 67
+    "id": 67,
+    "price": "$3.99"
   },
   {
     "name": "Extra Cheese",
@@ -619,7 +686,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 68
+    "id": 68,
+    "price": "$1.39"
   },
   {
     "name": "Add Avocado",
@@ -629,7 +697,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 69
+    "id": 69,
+    "price": "$2.09"
   },
   {
     "name": "Bacon",
@@ -638,7 +707,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 70
+    "id": 70,
+    "price": "$2.89"
   },
   {
     "name": "Hashbrown",
@@ -647,7 +717,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 71
+    "id": 71,
+    "price": "$2.15"
   },
   {
     "name": "Traditional",
@@ -657,7 +728,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 72
+    "id": 72,
+    "price": "$9.48"
   },
   {
     "name": "Shawarma Chicken",
@@ -666,7 +738,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 73
+    "id": 73,
+    "price": "$10.99"
   },
   {
     "name": "Beef Chili",
@@ -674,7 +747,8 @@
       "Bistro-2-Go"
     ],
     "likeCount": 0,
-    "id": 74
+    "id": 74,
+    "price": "$10.99"
   },
   {
     "name": "Burrito",
@@ -682,7 +756,8 @@
       "Bistro-2-Go"
     ],
     "likeCount": 0,
-    "id": 75
+    "id": 75,
+    "price": "$12.99"
   },
   {
     "name": "Nashville",
@@ -691,7 +766,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 76
+    "id": 76,
+    "price": "$9.99"
   },
   {
     "name": "Basic",
@@ -700,7 +776,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 77
+    "id": 77,
+    "price": "$7.99"
   },
   {
     "name": "BGC",
@@ -708,7 +785,8 @@
       "Bistro-2-Go"
     ],
     "likeCount": 0,
-    "id": 78
+    "id": 78,
+    "price": "$10.99"
   },
   {
     "name": "Chana Masala",
@@ -717,7 +795,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 79
+    "id": 79,
+    "price": "$9.29"
   },
   {
     "name": "Chili",
@@ -726,7 +805,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 80
+    "id": 80,
+    "price": "$12.99"
   },
   {
     "name": "Harvest",
@@ -735,7 +815,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 81
+    "id": 81,
+    "price": "$9.29"
   },
   {
     "name": "Caesar",
@@ -743,7 +824,8 @@
       "Bistro-2-Go"
     ],
     "likeCount": 0,
-    "id": 82
+    "id": 82,
+    "price": "$9.29"
   },
   {
     "name": "Fish and Chips",
@@ -751,7 +833,8 @@
       "Bistro-2-Go"
     ],
     "likeCount": 0,
-    "id": 83
+    "id": 83,
+    "price": "$15.99"
   },
   {
     "name": "OG Smash Burger",
@@ -760,7 +843,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 84
+    "id": 84,
+    "price": "$9.59"
   },
   {
     "name": "Big Smash Mac",
@@ -769,7 +853,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 85
+    "id": 85,
+    "price": "$14.99"
   },
   {
     "name": "Crispy Chicken",
@@ -778,7 +863,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 86
+    "id": 86,
+    "price": "$9.59"
   },
   {
     "name": "Malibu Burger",
@@ -786,7 +872,8 @@
       "Bistro-2-Go"
     ],
     "likeCount": 0,
-    "id": 87
+    "id": 87,
+    "price": "$10.99"
   },
   {
     "name": "Chicken Tenders",
@@ -795,7 +882,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 88
+    "id": 88,
+    "price": "$9.29"
   },
   {
     "name": "Gyozas",
@@ -804,7 +892,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 89
+    "id": 89,
+    "price": "$7.99"
   },
   {
     "name": "Breakfast Bagel Sandwiches",
@@ -812,7 +901,8 @@
       "Café One"
     ],
     "likeCount": 0,
-    "id": 90
+    "id": 90,
+    "price": "$5.49 – $5.99"
   },
   {
     "name": "Mac and Cheese",
@@ -821,7 +911,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 91
+    "id": 91,
+    "price": "$6.39"
   },
   {
     "name": "Chicken Burger",
@@ -830,7 +921,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 92
+    "id": 92,
+    "price": "$8.99"
   },
   {
     "name": "Jamaican Patty",
@@ -838,7 +930,8 @@
       "Café One"
     ],
     "likeCount": 0,
-    "id": 93
+    "id": 93,
+    "price": "$3.69"
   },
   {
     "name": "Pizza",
@@ -846,7 +939,8 @@
       "Café One"
     ],
     "likeCount": 0,
-    "id": 94
+    "id": 94,
+    "price": "$6.69"
   },
   {
     "name": "Chicken Bites",
@@ -854,7 +948,8 @@
       "Café One"
     ],
     "likeCount": 0,
-    "id": 95
+    "id": 95,
+    "price": "$9.19"
   },
   {
     "name": "Meatball Sub",
@@ -863,7 +958,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 96
+    "id": 96,
+    "price": "$8.79"
   },
   {
     "name": "Coffee",
@@ -871,7 +967,8 @@
       "Café One"
     ],
     "likeCount": 0,
-    "id": 97
+    "id": 97,
+    "price": "Medium $2.55 · Large $2.99"
   },
   {
     "name": "Tea",
@@ -879,7 +976,8 @@
       "Café One"
     ],
     "likeCount": 0,
-    "id": 98
+    "id": 98,
+    "price": "Medium $2.55 · Large $2.99"
   },
   {
     "name": "Hot Chocolate",
@@ -887,7 +985,8 @@
       "Café One"
     ],
     "likeCount": 0,
-    "id": 99
+    "id": 99,
+    "price": "Medium $2.55 · Large $2.95"
   },
   {
     "name": "Cappuccino",
@@ -895,7 +994,8 @@
       "Café One"
     ],
     "likeCount": 0,
-    "id": 100
+    "id": 100,
+    "price": "Medium $2.79 · Large $3.29"
   },
   {
     "name": "Iced Coffee",
@@ -903,7 +1003,8 @@
       "Café One"
     ],
     "likeCount": 0,
-    "id": 101
+    "id": 101,
+    "price": "Medium $2.79 · Large $3.29"
   },
   {
     "name": "Assorted Savoury Pastry",
@@ -911,7 +1012,8 @@
       "Café One"
     ],
     "likeCount": 0,
-    "id": 102
+    "id": 102,
+    "price": "$3.99"
   },
   {
     "name": "Cinnamon Bun",
@@ -919,7 +1021,8 @@
       "Café One"
     ],
     "likeCount": 0,
-    "id": 103
+    "id": 103,
+    "price": "$3.49"
   },
   {
     "name": "Butter Croissant",
@@ -927,7 +1030,8 @@
       "Café One"
     ],
     "likeCount": 0,
-    "id": 104
+    "id": 104,
+    "price": "$2.59"
   },
   {
     "name": "Specialty Croissant",
@@ -935,7 +1039,8 @@
       "Café One"
     ],
     "likeCount": 0,
-    "id": 105
+    "id": 105,
+    "price": "$3.49"
   },
   {
     "name": "Assorted Muffin",
@@ -943,7 +1048,8 @@
       "Café One"
     ],
     "likeCount": 0,
-    "id": 106
+    "id": 106,
+    "price": "$2.59"
   },
   {
     "name": "Assorted Cookie",
@@ -951,7 +1057,8 @@
       "Café One"
     ],
     "likeCount": 0,
-    "id": 107
+    "id": 107,
+    "price": "$2.39"
   },
   {
     "name": "Assorted Donut (Regular)",
@@ -959,7 +1066,8 @@
       "Café One"
     ],
     "likeCount": 0,
-    "id": 108
+    "id": 108,
+    "price": "$2.99"
   },
   {
     "name": "Assorted Donut (Premium)",
@@ -967,7 +1075,8 @@
       "Café One"
     ],
     "likeCount": 0,
-    "id": 109
+    "id": 109,
+    "price": "$2.99"
   },
   {
     "name": "Assorted Danish",
@@ -975,7 +1084,8 @@
       "Café One"
     ],
     "likeCount": 0,
-    "id": 110
+    "id": 110,
+    "price": "$3.29"
   },
   {
     "name": "Big Cookie",
@@ -983,7 +1093,8 @@
       "Café One"
     ],
     "likeCount": 0,
-    "id": 111
+    "id": 111,
+    "price": "$3.99"
   },
   {
     "name": "Coffee",
@@ -991,7 +1102,8 @@
       "Caffeine The Elements"
     ],
     "likeCount": 0,
-    "id": 112
+    "id": 112,
+    "price": "Small $2.35 · Medium $2.65 · Large $2.99"
   },
   {
     "name": "Tea",
@@ -999,7 +1111,8 @@
       "Caffeine The Elements"
     ],
     "likeCount": 0,
-    "id": 113
+    "id": 113,
+    "price": "Small $2.35 · Medium $2.65 · Large $2.99"
   },
   {
     "name": "Hot Chocolate",
@@ -1007,7 +1120,8 @@
       "Caffeine The Elements"
     ],
     "likeCount": 0,
-    "id": 114
+    "id": 114,
+    "price": "Small $3.59 · Medium $4.19 · Large $4.69"
   },
   {
     "name": "Canadiano",
@@ -1015,7 +1129,8 @@
       "Caffeine The Elements"
     ],
     "likeCount": 0,
-    "id": 115
+    "id": 115,
+    "price": "Small $3.39 · Medium $3.59 · Large $4.19"
   },
   {
     "name": "Cappuccino",
@@ -1023,7 +1138,8 @@
       "Caffeine The Elements"
     ],
     "likeCount": 0,
-    "id": 116
+    "id": 116,
+    "price": "Small $3.99 · Medium $4.39 · Large $5.39"
   },
   {
     "name": "Hot Latte",
@@ -1031,7 +1147,8 @@
       "Caffeine The Elements"
     ],
     "likeCount": 0,
-    "id": 117
+    "id": 117,
+    "price": "Small $4.19 · Medium $4.59 · Large $5.49"
   },
   {
     "name": "Mocha",
@@ -1039,7 +1156,8 @@
       "Caffeine The Elements"
     ],
     "likeCount": 0,
-    "id": 118
+    "id": 118,
+    "price": "Small $4.59 · Medium $5.29 · Large $5.89"
   },
   {
     "name": "Espresso",
@@ -1047,7 +1165,8 @@
       "Caffeine The Elements"
     ],
     "likeCount": 0,
-    "id": 119
+    "id": 119,
+    "price": "Small $2.49 · Medium $3.99"
   },
   {
     "name": "Extra",
@@ -1055,7 +1174,8 @@
       "Caffeine The Elements"
     ],
     "likeCount": 0,
-    "id": 120
+    "id": 120,
+    "price": "Small $1.39"
   },
   {
     "name": "Cold Brewed Iced Tea",
@@ -1063,7 +1183,8 @@
       "Caffeine The Elements"
     ],
     "likeCount": 0,
-    "id": 121
+    "id": 121,
+    "price": "$3.79"
   },
   {
     "name": "Infused Lemonade",
@@ -1071,7 +1192,8 @@
       "Caffeine The Elements"
     ],
     "likeCount": 0,
-    "id": 122
+    "id": 122,
+    "price": "$3.79"
   },
   {
     "name": "Iced Coffee",
@@ -1079,7 +1201,8 @@
       "Caffeine The Elements"
     ],
     "likeCount": 0,
-    "id": 123
+    "id": 123,
+    "price": "$3.69"
   },
   {
     "name": "Iced Latte",
@@ -1087,7 +1210,8 @@
       "Caffeine The Elements"
     ],
     "likeCount": 0,
-    "id": 124
+    "id": 124,
+    "price": "$4.59"
   },
   {
     "name": "Iced Chai Latte",
@@ -1095,7 +1219,8 @@
       "Caffeine The Elements"
     ],
     "likeCount": 0,
-    "id": 125
+    "id": 125,
+    "price": "$5.19"
   },
   {
     "name": "Iced London Fog Latte",
@@ -1103,7 +1228,8 @@
       "Caffeine The Elements"
     ],
     "likeCount": 0,
-    "id": 126
+    "id": 126,
+    "price": "$5.19"
   },
   {
     "name": "Iced Matcha Tea Latte",
@@ -1111,7 +1237,8 @@
       "Caffeine The Elements"
     ],
     "likeCount": 0,
-    "id": 127
+    "id": 127,
+    "price": "$5.49"
   },
   {
     "name": "Honey Garlic Pork Bites",
@@ -1119,7 +1246,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 128
+    "id": 128,
+    "price": "$8.99"
   },
   {
     "name": "Crispy Tempura Shrimp",
@@ -1127,7 +1255,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 129
+    "id": 129,
+    "price": "$8.99"
   },
   {
     "name": "Roasted Char Sui Pork",
@@ -1135,7 +1264,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 130
+    "id": 130,
+    "price": "$8.99"
   },
   {
     "name": "General Tso",
@@ -1145,7 +1275,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 131
+    "id": 131,
+    "price": "$8.99"
   },
   {
     "name": "Sweet & Spicy Korean Chicken",
@@ -1153,7 +1284,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 132
+    "id": 132,
+    "price": "$8.99"
   },
   {
     "name": "Butter Chicken",
@@ -1163,7 +1295,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 133
+    "id": 133,
+    "price": "$8.99"
   },
   {
     "name": "Carne Asada",
@@ -1173,7 +1306,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 134
+    "id": 134,
+    "price": "$8.99"
   },
   {
     "name": "Jerk Chicken",
@@ -1183,7 +1317,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 135
+    "id": 135,
+    "price": "$8.99"
   },
   {
     "name": "Braised Tofu & Kimchi Noodle Bowl",
@@ -1192,7 +1327,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 136
+    "id": 136,
+    "price": "$9.49"
   },
   {
     "name": "Braised Tofu & Kimchi Noodle Bowl with Pork",
@@ -1200,7 +1336,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 137
+    "id": 137,
+    "price": "$13.95"
   },
   {
     "name": "Chicken & Cilantro Dumpling",
@@ -1208,7 +1345,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 138
+    "id": 138,
+    "price": "$7.49"
   },
   {
     "name": "Jamaican Style Jerk Tofu & Rice",
@@ -1216,7 +1354,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 139
+    "id": 139,
+    "price": "$6.00 Signature Meal"
   },
   {
     "name": "Lo Mein Noodles",
@@ -1225,7 +1364,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 140
+    "id": 140,
+    "price": "$5.09"
   },
   {
     "name": "Steamed White Rice",
@@ -1235,7 +1375,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 141
+    "id": 141,
+    "price": "$1.99"
   },
   {
     "name": "Spanish Rice",
@@ -1245,7 +1386,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 142
+    "id": 142,
+    "price": "$1.99"
   },
   {
     "name": "Market Vegetables",
@@ -1255,7 +1397,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 143
+    "id": 143,
+    "price": "$4.99"
   },
   {
     "name": "Naan Bread",
@@ -1264,7 +1407,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 144
+    "id": 144,
+    "price": "$2.79"
   },
   {
     "name": "Mashed Potatoes",
@@ -1274,7 +1418,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 145
+    "id": 145,
+    "price": "$3.39"
   },
   {
     "name": "Thunder Crunch Chipotle Sandwich",
@@ -1282,7 +1427,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 146
+    "id": 146,
+    "price": "$10.95"
   },
   {
     "name": "Ole English Style Fish & Chips",
@@ -1290,7 +1436,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 147
+    "id": 147,
+    "price": "$11.95"
   },
   {
     "name": "The Steeltown",
@@ -1299,7 +1446,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 148
+    "id": 148,
+    "price": "$9.59"
   },
   {
     "name": "Beyond Burger",
@@ -1308,7 +1456,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 149
+    "id": 149,
+    "price": "$11.19"
   },
   {
     "name": "Local Chicken Tenders",
@@ -1317,7 +1466,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 150
+    "id": 150,
+    "price": "$9.29"
   },
   {
     "name": "Poutine",
@@ -1325,7 +1475,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 151
+    "id": 151,
+    "price": "$12.99"
   },
   {
     "name": "Fresh Cut Fries",
@@ -1334,7 +1485,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 152
+    "id": 152,
+    "price": "$4.49"
   },
   {
     "name": "Chef’s Daily Special",
@@ -1342,7 +1494,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 153
+    "id": 153,
+    "price": "Ask at counter"
   },
   {
     "name": "Big Breakfast",
@@ -1350,7 +1503,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 154
+    "id": 154,
+    "price": "$14.49"
   },
   {
     "name": "Vegetarian Breakfast",
@@ -1359,7 +1513,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 155
+    "id": 155,
+    "price": "$10.99"
   },
   {
     "name": "Rise N’ Shine",
@@ -1367,7 +1522,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 156
+    "id": 156,
+    "price": "$9.99"
   },
   {
     "name": "Plant-based Breakfast Wrap",
@@ -1376,7 +1532,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 157
+    "id": 157,
+    "price": "$8.49"
   },
   {
     "name": "French Toast",
@@ -1385,7 +1542,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 158
+    "id": 158,
+    "price": "$6.99"
   },
   {
     "name": "Pancakes",
@@ -1394,7 +1552,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 159
+    "id": 159,
+    "price": "$6.49"
   },
   {
     "name": "Home Fries",
@@ -1403,7 +1562,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 160
+    "id": 160,
+    "price": "$4.69"
   },
   {
     "name": "Eggs",
@@ -1413,7 +1573,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 161
+    "id": 161,
+    "price": "$4.99"
   },
   {
     "name": "Bacon",
@@ -1422,7 +1583,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 162
+    "id": 162,
+    "price": "$2.69"
   },
   {
     "name": "Sausage",
@@ -1430,7 +1592,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 163
+    "id": 163,
+    "price": "$2.89"
   },
   {
     "name": "Turkey Bacon",
@@ -1439,7 +1602,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 164
+    "id": 164,
+    "price": "$2.89"
   },
   {
     "name": "Meal",
@@ -1447,7 +1611,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 165
+    "id": 165,
+    "price": "$14.99"
   },
   {
     "name": "Salad",
@@ -1455,7 +1620,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 166
+    "id": 166,
+    "price": "$13.99"
   },
   {
     "name": "Yalla Special",
@@ -1463,7 +1629,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 167
+    "id": 167,
+    "price": "$13.99"
   },
   {
     "name": "Wraps",
@@ -1471,7 +1638,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 168
+    "id": 168,
+    "price": "$10.99"
   },
   {
     "name": "Lamb Shank Dinner",
@@ -1479,7 +1647,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 169
+    "id": 169,
+    "price": "$21.95"
   },
   {
     "name": "Breakfast Pizza",
@@ -1487,7 +1656,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 170
+    "id": 170,
+    "price": "$11.95"
   },
   {
     "name": "Build Your Own Omelette",
@@ -1495,7 +1665,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 171
+    "id": 171,
+    "price": "$8.99"
   },
   {
     "name": "Build Your Own Pasta With Vegetables",
@@ -1503,7 +1674,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 172
+    "id": 172,
+    "price": "$11.99"
   },
   {
     "name": "Build Your Own Pasta with Vegetables and One Protein",
@@ -1511,7 +1683,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 173
+    "id": 173,
+    "price": "$14.29"
   },
   {
     "name": "Build Your Own Pasta With Vegetables and Two Proteins",
@@ -1519,7 +1692,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 174
+    "id": 174,
+    "price": "$16.99"
   },
   {
     "name": "Baked Chicken Parmesan",
@@ -1528,7 +1702,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 175
+    "id": 175,
+    "price": "$13.49"
   },
   {
     "name": "Baked Cheese Ravioli in Rose Sauce",
@@ -1537,7 +1712,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 176
+    "id": 176,
+    "price": "$13.95"
   },
   {
     "name": "Chipotle Chicken Mac ‘n’ Cheese",
@@ -1545,7 +1721,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 177
+    "id": 177,
+    "price": "$12.99"
   },
   {
     "name": "Meat Cannelloni",
@@ -1553,7 +1730,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 178
+    "id": 178,
+    "price": "$12.99"
   },
   {
     "name": "Garlic Bread",
@@ -1562,7 +1740,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 179
+    "id": 179,
+    "price": "$2.79"
   },
   {
     "name": "Garlic Bread with Cheese",
@@ -1571,7 +1750,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 180
+    "id": 180,
+    "price": "$5.99"
   },
   {
     "name": "Bruschetta & Cheese Pizza",
@@ -1580,7 +1760,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 181
+    "id": 181,
+    "price": "12 Whole Pizza $18.95 · 1/2 Pizza $9.95"
   },
   {
     "name": "Cheese Pizza",
@@ -1589,7 +1770,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 182
+    "id": 182,
+    "price": "12 Whole Pizza $15.95 · 1/2 Pizza $8.95"
   },
   {
     "name": "Pepperoni Pizza",
@@ -1598,7 +1780,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 183
+    "id": 183,
+    "price": "12 Whole Pizza $16.95 and 1/2 Pizza $9.45"
   },
   {
     "name": "Spicy Chicken Sandwich",
@@ -1606,7 +1789,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 184
+    "id": 184,
+    "price": "$8.99"
   },
   {
     "name": "Chipotle Chicken Panini",
@@ -1614,7 +1798,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 185
+    "id": 185,
+    "price": "$9.95"
   },
   {
     "name": "Chicken Caesar Wrap",
@@ -1622,7 +1807,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 186
+    "id": 186,
+    "price": "$9.29"
   },
   {
     "name": "Tex-Mex Pulled Pork Sandwich",
@@ -1630,7 +1816,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 187
+    "id": 187,
+    "price": "$9.95"
   },
   {
     "name": "Chicken Quesadilla",
@@ -1638,7 +1825,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 188
+    "id": 188,
+    "price": "$11.79"
   },
   {
     "name": "Not Your Average Grilled Cheese",
@@ -1647,7 +1835,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 189
+    "id": 189,
+    "price": "$9.99"
   },
   {
     "name": "Popcorn Chicken Poutine",
@@ -1655,7 +1844,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 190
+    "id": 190,
+    "price": "$10.95"
   },
   {
     "name": "Popcorn Chicken Cup",
@@ -1665,7 +1855,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 191
+    "id": 191,
+    "price": "$11.95"
   },
   {
     "name": "Crunch Wrap Supreme",
@@ -1674,7 +1865,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 192
+    "id": 192,
+    "price": "$9.95"
   },
   {
     "name": "Thai Peanut Bowl",
@@ -1683,7 +1875,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 193
+    "id": 193,
+    "price": "$10.95"
   },
   {
     "name": "Mac ‘n’ Cheese Bite Poutine",
@@ -1692,7 +1885,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 194
+    "id": 194,
+    "price": "$9.95"
   },
   {
     "name": "Burrito Bowl",
@@ -1702,7 +1896,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 195
+    "id": 195,
+    "price": "$11.95"
   },
   {
     "name": "Crispy Fries",
@@ -1711,7 +1906,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 196
+    "id": 196,
+    "price": "$5.99"
   },
   {
     "name": "Sweet Potato Fries",
@@ -1720,7 +1916,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 197
+    "id": 197,
+    "price": "$6.49"
   },
   {
     "name": "Full Fruit Waffle",
@@ -1729,7 +1926,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 198
+    "id": 198,
+    "price": "$9.99"
   },
   {
     "name": "Half Fruit Waffle",
@@ -1738,7 +1936,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 199
+    "id": 199,
+    "price": "$8.29"
   },
   {
     "name": "Plain Waffle",
@@ -1747,7 +1946,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 200
+    "id": 200,
+    "price": "$6.49"
   },
   {
     "name": "Extra Fruit Scoop",
@@ -1757,7 +1957,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 201
+    "id": 201,
+    "price": "$2.49"
   },
   {
     "name": "Build Your Own Smoothie",
@@ -1767,7 +1968,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 202
+    "id": 202,
+    "price": "$7.99"
   },
   {
     "name": "Milkshakes",
@@ -1776,7 +1978,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 203
+    "id": 203,
+    "price": "$7.99"
   },
   {
     "name": "Sundaes with Whipped Topping and Sprinkles",
@@ -1785,7 +1988,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 204
+    "id": 204,
+    "price": "$7.99"
   },
   {
     "name": "Syrups",
@@ -1794,7 +1998,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 205
+    "id": 205,
+    "price": "$1.50"
   },
   {
     "name": "Fruit",
@@ -1804,7 +2009,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 206
+    "id": 206,
+    "price": "$2.49"
   },
   {
     "name": "3 Scoops of Ice Cream in a Bowl",
@@ -1813,7 +2019,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 207
+    "id": 207,
+    "price": "$4.99"
   },
   {
     "name": "Colossal Ice Cream Sandwich",
@@ -1822,7 +2029,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 208
+    "id": 208,
+    "price": "$5.99"
   },
   {
     "name": "Fudge Brownie Delight",
@@ -1831,7 +2039,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 209
+    "id": 209,
+    "price": "$6.99"
   },
   {
     "name": "Mac Pop",
@@ -1840,7 +2049,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 210
+    "id": 210,
+    "price": "$4.49"
   },
   {
     "name": "Cake Pop",
@@ -1849,7 +2059,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 211
+    "id": 211,
+    "price": "$3.99"
   },
   {
     "name": "Decadent Cake of the Week",
@@ -1857,7 +2068,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 212
+    "id": 212,
+    "price": "$8.99"
   },
   {
     "name": "CENTRO Perk Creation of the Week",
@@ -1865,7 +2077,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 213
+    "id": 213,
+    "price": "$7.99"
   },
   {
     "name": "Good Morning Classic",
@@ -1873,7 +2086,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 214
+    "id": 214,
+    "price": "$8.49"
   },
   {
     "name": "Plant-based Breakfast Burrito",
@@ -1882,7 +2096,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 215
+    "id": 215,
+    "price": "$8.79"
   },
   {
     "name": "Hungry Marauder",
@@ -1890,7 +2105,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 216
+    "id": 216,
+    "price": "$12.99"
   },
   {
     "name": "Breakfast Wrap",
@@ -1898,7 +2114,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 217
+    "id": 217,
+    "price": "$8.79"
   },
   {
     "name": "Two Egg Breakfast",
@@ -1907,7 +2124,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 218
+    "id": 218,
+    "price": "$4.79"
   },
   {
     "name": "Breakfast Burger",
@@ -1915,7 +2133,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 219
+    "id": 219,
+    "price": "$10.95"
   },
   {
     "name": "Chipotle Steak and Egg Wrap",
@@ -1924,7 +2143,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 220
+    "id": 220,
+    "price": "$11.95"
   },
   {
     "name": "Extra egg",
@@ -1934,7 +2154,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 221
+    "id": 221,
+    "price": "$1.79"
   },
   {
     "name": "Extra hashbrown",
@@ -1943,7 +2164,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 222
+    "id": 222,
+    "price": "$2.15"
   },
   {
     "name": "Steak Sandwich",
@@ -1952,7 +2174,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 223
+    "id": 223,
+    "price": "$12.49"
   },
   {
     "name": "Ontario Cheddar cheese",
@@ -1962,7 +2185,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 224
+    "id": 224,
+    "price": "$1.39"
   },
   {
     "name": "Vegan cheese",
@@ -1972,7 +2196,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 225
+    "id": 225,
+    "price": "$1.79"
   },
   {
     "name": "House-made Gravy",
@@ -1982,7 +2207,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 226
+    "id": 226,
+    "price": "+$1.19"
   },
   {
     "name": "Carolina Gold BBQ Chicken Wrap",
@@ -1991,7 +2217,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 227
+    "id": 227,
+    "price": "$9.29"
   },
   {
     "name": "Corn Dog",
@@ -2000,7 +2227,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 228
+    "id": 228,
+    "price": "$10.95"
   },
   {
     "name": "Traditional Poutine",
@@ -2009,7 +2237,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 229
+    "id": 229,
+    "price": "$9.48"
   },
   {
     "name": "Beyond Ghost Pepper Wrap",
@@ -2018,7 +2247,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 230
+    "id": 230,
+    "price": "$9.99"
   },
   {
     "name": "Wings Night",
@@ -2027,7 +2257,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 231
+    "id": 231,
+    "price": "$14.95"
   },
   {
     "name": "Smash Burger combo With Crispy Coated Fries",
@@ -2035,7 +2266,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 232
+    "id": 232,
+    "price": "$14.95"
   },
   {
     "name": "Perogies",
@@ -2044,7 +2276,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 233
+    "id": 233,
+    "price": "$12.95"
   },
   {
     "name": "Latte",
@@ -2052,7 +2285,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 234
+    "id": 234,
+    "price": "Prices $4.59"
   },
   {
     "name": "Vanilla Latte",
@@ -2060,7 +2294,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 235
+    "id": 235,
+    "price": "Prices $5.49"
   },
   {
     "name": "Caramel Latte",
@@ -2068,7 +2303,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 236
+    "id": 236,
+    "price": "Prices $5.49"
   },
   {
     "name": "Eggnog Latte",
@@ -2076,7 +2312,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 237
+    "id": 237,
+    "price": "Prices $5.49"
   },
   {
     "name": "Matcha Latte",
@@ -2084,7 +2321,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 238
+    "id": 238,
+    "price": "Prices $5.49"
   },
   {
     "name": "Chai Latte",
@@ -2092,7 +2330,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 239
+    "id": 239,
+    "price": "Prices $5.19"
   },
   {
     "name": "Cappuccino",
@@ -2100,7 +2339,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 240
+    "id": 240,
+    "price": "Prices $4.39"
   },
   {
     "name": "Flat White",
@@ -2108,7 +2348,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 241
+    "id": 241,
+    "price": "Prices $4.99"
   },
   {
     "name": "Canadiano",
@@ -2116,7 +2357,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 242
+    "id": 242,
+    "price": "Prices $3.59"
   },
   {
     "name": "Espresso",
@@ -2124,7 +2366,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 243
+    "id": 243,
+    "price": "Prices $3.99"
   },
   {
     "name": "Hot Chocolate",
@@ -2132,7 +2375,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 244
+    "id": 244,
+    "price": "Prices $4.19"
   },
   {
     "name": "Iced Latte",
@@ -2140,7 +2384,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 245
+    "id": 245,
+    "price": "Prices $4.59"
   },
   {
     "name": "Iced Vanilla Latte",
@@ -2148,7 +2393,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 246
+    "id": 246,
+    "price": "Prices $5.49"
   },
   {
     "name": "Iced Caramel Latte",
@@ -2156,7 +2402,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 247
+    "id": 247,
+    "price": "Prices $5.49"
   },
   {
     "name": "Iced Eggnog Latte",
@@ -2164,7 +2411,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 248
+    "id": 248,
+    "price": "Prices $5.49"
   },
   {
     "name": "Iced Matcha Latte",
@@ -2172,7 +2420,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 249
+    "id": 249,
+    "price": "Prices $5.49"
   },
   {
     "name": "Iced Chai Latte",
@@ -2180,7 +2429,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 250
+    "id": 250,
+    "price": "Prices $5.19"
   },
   {
     "name": "Add Matcha",
@@ -2188,7 +2438,8 @@
       "CENTRO@Commons"
     ],
     "likeCount": 0,
-    "id": 251
+    "id": 251,
+    "price": "Prices $1.00"
   },
   {
     "name": "Coffee",
@@ -2196,7 +2447,8 @@
       "E-Café"
     ],
     "likeCount": 0,
-    "id": 252
+    "id": 252,
+    "price": "Medium $2.65 · Large $2.99"
   },
   {
     "name": "Tea",
@@ -2204,7 +2456,8 @@
       "E-Café"
     ],
     "likeCount": 0,
-    "id": 253
+    "id": 253,
+    "price": "Medium $2.65 · Large $2.99"
   },
   {
     "name": "Hot Chocolate",
@@ -2212,7 +2465,8 @@
       "E-Café"
     ],
     "likeCount": 0,
-    "id": 254
+    "id": 254,
+    "price": "Medium $2.59 · Large $2.95"
   },
   {
     "name": "Flavoured Cappuccino",
@@ -2220,7 +2474,8 @@
       "E-Café"
     ],
     "likeCount": 0,
-    "id": 255
+    "id": 255,
+    "price": "Medium $2.79 · Large $3.29"
   },
   {
     "name": "Iced Coffee",
@@ -2228,7 +2483,8 @@
       "E-Café"
     ],
     "likeCount": 0,
-    "id": 256
+    "id": 256,
+    "price": "$2.79"
   },
   {
     "name": "Iced Chai Latte",
@@ -2236,7 +2492,8 @@
       "E-Café"
     ],
     "likeCount": 0,
-    "id": 257
+    "id": 257,
+    "price": "$5.19"
   },
   {
     "name": "Iced London Fog Latte",
@@ -2244,7 +2501,8 @@
       "E-Café"
     ],
     "likeCount": 0,
-    "id": 258
+    "id": 258,
+    "price": "$5.19"
   },
   {
     "name": "Iced Matcha Latte",
@@ -2252,7 +2510,8 @@
       "E-Café"
     ],
     "likeCount": 0,
-    "id": 259
+    "id": 259,
+    "price": "$5.49"
   },
   {
     "name": "Assorted Muffins",
@@ -2260,7 +2519,8 @@
       "E-Café"
     ],
     "likeCount": 0,
-    "id": 260
+    "id": 260,
+    "price": "$2.69"
   },
   {
     "name": "Assorted Cookies",
@@ -2268,7 +2528,8 @@
       "E-Café"
     ],
     "likeCount": 0,
-    "id": 261
+    "id": 261,
+    "price": "$2.39"
   },
   {
     "name": "Croissants",
@@ -2276,7 +2537,8 @@
       "E-Café"
     ],
     "likeCount": 0,
-    "id": 262
+    "id": 262,
+    "price": "$2.69"
   },
   {
     "name": "Cheese Croissant",
@@ -2284,7 +2546,8 @@
       "E-Café"
     ],
     "likeCount": 0,
-    "id": 263
+    "id": 263,
+    "price": "$3.49"
   },
   {
     "name": "Chocolatine Croissants",
@@ -2292,7 +2555,8 @@
       "E-Café"
     ],
     "likeCount": 0,
-    "id": 264
+    "id": 264,
+    "price": "$3.49"
   },
   {
     "name": "Cinnamon Buns",
@@ -2300,7 +2564,8 @@
       "E-Café"
     ],
     "likeCount": 0,
-    "id": 265
+    "id": 265,
+    "price": "$3.19"
   },
   {
     "name": "Assorted Danishes",
@@ -2308,7 +2573,8 @@
       "E-Café"
     ],
     "likeCount": 0,
-    "id": 266
+    "id": 266,
+    "price": "$3.29"
   },
   {
     "name": "Savoury Pastries",
@@ -2316,7 +2582,8 @@
       "E-Café"
     ],
     "likeCount": 0,
-    "id": 267
+    "id": 267,
+    "price": "$3.49"
   },
   {
     "name": "Strudel",
@@ -2324,7 +2591,8 @@
       "E-Café"
     ],
     "likeCount": 0,
-    "id": 268
+    "id": 268,
+    "price": "$3.49"
   },
   {
     "name": "Assorted Donut – Regular",
@@ -2332,7 +2600,8 @@
       "E-Café"
     ],
     "likeCount": 0,
-    "id": 269
+    "id": 269,
+    "price": "$2.29"
   },
   {
     "name": "Assorted Donut – Premium",
@@ -2340,7 +2609,8 @@
       "E-Café"
     ],
     "likeCount": 0,
-    "id": 270
+    "id": 270,
+    "price": "$2.99"
   },
   {
     "name": "Bacon and Cheese",
@@ -2348,7 +2618,8 @@
       "Ecobean"
     ],
     "likeCount": 0,
-    "id": 271
+    "id": 271,
+    "price": "$8.99"
   },
   {
     "name": "Veggie",
@@ -2357,7 +2628,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 272
+    "id": 272,
+    "price": "$7.99"
   },
   {
     "name": "Toasted Bagel",
@@ -2365,7 +2637,8 @@
       "Ecobean"
     ],
     "likeCount": 0,
-    "id": 273
+    "id": 273,
+    "price": "$4.20"
   },
   {
     "name": "Fresh Coffee",
@@ -2373,7 +2646,8 @@
       "Ecobean"
     ],
     "likeCount": 0,
-    "id": 274
+    "id": 274,
+    "price": "S $2.35 · M $2.65 · L $2.95"
   },
   {
     "name": "Cafe Latte",
@@ -2381,7 +2655,8 @@
       "Ecobean"
     ],
     "likeCount": 0,
-    "id": 275
+    "id": 275,
+    "price": "S $4.40 · M $4.90 · L $5.40"
   },
   {
     "name": "Mocha",
@@ -2389,7 +2664,8 @@
       "Ecobean"
     ],
     "likeCount": 0,
-    "id": 276
+    "id": 276,
+    "price": "S $5.10 · M $5.60 · L $6.10"
   },
   {
     "name": "Cappuccino",
@@ -2397,7 +2673,8 @@
       "Ecobean"
     ],
     "likeCount": 0,
-    "id": 277
+    "id": 277,
+    "price": "S $4.40 · M $4.90 · L $5.40"
   },
   {
     "name": "Americano",
@@ -2405,7 +2682,8 @@
       "Ecobean"
     ],
     "likeCount": 0,
-    "id": 278
+    "id": 278,
+    "price": "S $3.50 · M $3.75 · L $4.00"
   },
   {
     "name": "Cortado",
@@ -2413,7 +2691,8 @@
       "Ecobean"
     ],
     "likeCount": 0,
-    "id": 279
+    "id": 279,
+    "price": "M $4.45"
   },
   {
     "name": "Espresso",
@@ -2421,7 +2700,8 @@
       "Ecobean"
     ],
     "likeCount": 0,
-    "id": 280
+    "id": 280,
+    "price": "S $2.95 (Sngl) · M $3.25 (Dbl)"
   },
   {
     "name": "Iced Coffee",
@@ -2429,7 +2709,8 @@
       "Ecobean"
     ],
     "likeCount": 0,
-    "id": 281
+    "id": 281,
+    "price": "M $3.75 · L $4.75"
   },
   {
     "name": "Iced Vanilla Coffee",
@@ -2437,7 +2718,8 @@
       "Ecobean"
     ],
     "likeCount": 0,
-    "id": 282
+    "id": 282,
+    "price": "M $4.45 · L $5.45"
   },
   {
     "name": "Iced Mocha Coffee",
@@ -2445,7 +2727,8 @@
       "Ecobean"
     ],
     "likeCount": 0,
-    "id": 283
+    "id": 283,
+    "price": "M $4.45 · L $5.45"
   },
   {
     "name": "Iced Latte",
@@ -2453,7 +2736,8 @@
       "Ecobean"
     ],
     "likeCount": 0,
-    "id": 284
+    "id": 284,
+    "price": "M $5.25 · L $6.25"
   },
   {
     "name": "Iced Mocha Latte",
@@ -2461,7 +2745,8 @@
       "Ecobean"
     ],
     "likeCount": 0,
-    "id": 285
+    "id": 285,
+    "price": "M $5.95 · L $6.95"
   },
   {
     "name": "Iced Tea",
@@ -2469,7 +2754,8 @@
       "Ecobean"
     ],
     "likeCount": 0,
-    "id": 286
+    "id": 286,
+    "price": "M $3.75 · L $4.75"
   },
   {
     "name": "Mango Passionfruit Tea",
@@ -2477,7 +2763,8 @@
       "Ecobean"
     ],
     "likeCount": 0,
-    "id": 287
+    "id": 287,
+    "price": "M $4.45 · L $5.45"
   },
   {
     "name": "Iced Matcha Latte",
@@ -2485,7 +2772,8 @@
       "Ecobean"
     ],
     "likeCount": 0,
-    "id": 288
+    "id": 288,
+    "price": "M $5.75 · L $6.75"
   },
   {
     "name": "Iced Strawberry Matcha Latte",
@@ -2493,7 +2781,8 @@
       "Ecobean"
     ],
     "likeCount": 0,
-    "id": 289
+    "id": 289,
+    "price": "M $6.15 · L $7.15"
   },
   {
     "name": "Iced Chai Latte",
@@ -2501,7 +2790,8 @@
       "Ecobean"
     ],
     "likeCount": 0,
-    "id": 290
+    "id": 290,
+    "price": "M $5.75 · L $6.75"
   },
   {
     "name": "Iced Vanilla Chai Latte",
@@ -2509,7 +2799,8 @@
       "Ecobean"
     ],
     "likeCount": 0,
-    "id": 291
+    "id": 291,
+    "price": "M $5.75 · L $6.75"
   },
   {
     "name": "Grilled Cheese",
@@ -2518,7 +2809,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 292
+    "id": 292,
+    "price": "$10.99"
   },
   {
     "name": "Paneer Grilled Cheese",
@@ -2527,7 +2819,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 293
+    "id": 293,
+    "price": "$10.99"
   },
   {
     "name": "Turkey BLTA",
@@ -2535,7 +2828,8 @@
       "IAHS Café"
     ],
     "likeCount": 0,
-    "id": 294
+    "id": 294,
+    "price": "$10.99"
   },
   {
     "name": "Chicken Caesar Wrap",
@@ -2543,7 +2837,8 @@
       "IAHS Café"
     ],
     "likeCount": 0,
-    "id": 295
+    "id": 295,
+    "price": "$10.99"
   },
   {
     "name": "Butter Chicken Panini",
@@ -2552,7 +2847,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 296
+    "id": 296,
+    "price": "$10.99"
   },
   {
     "name": "Chicken Pesto Sandwich",
@@ -2561,7 +2857,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 297
+    "id": 297,
+    "price": "$10.99"
   },
   {
     "name": "Pesto Spinach Quesadilla",
@@ -2570,7 +2867,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 298
+    "id": 298,
+    "price": "$11.29"
   },
   {
     "name": "Chicken Quesadilla",
@@ -2578,7 +2876,8 @@
       "IAHS Café"
     ],
     "likeCount": 0,
-    "id": 299
+    "id": 299,
+    "price": "$11.29"
   },
   {
     "name": "Chicken Shawarma Rice Bowl",
@@ -2588,7 +2887,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 300
+    "id": 300,
+    "price": "$10.99"
   },
   {
     "name": "Falafel Rice Bowl",
@@ -2598,7 +2898,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 301
+    "id": 301,
+    "price": "$10.99"
   },
   {
     "name": "Mediterranean Rice Bowl",
@@ -2608,7 +2909,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 302
+    "id": 302,
+    "price": "$10.99"
   },
   {
     "name": "Build Your Own Salad",
@@ -2616,7 +2918,8 @@
       "IAHS Café"
     ],
     "likeCount": 0,
-    "id": 303
+    "id": 303,
+    "price": "$11.99"
   },
   {
     "name": "Vegetables (pick 3)",
@@ -2626,7 +2929,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 304
+    "id": 304,
+    "price": "Included with Build Your Own Salad ($11.99)"
   },
   {
     "name": "Crunch Toppings (pick 1):",
@@ -2634,7 +2938,8 @@
       "IAHS Café"
     ],
     "likeCount": 0,
-    "id": 305
+    "id": 305,
+    "price": "Included with Build Your Own Salad ($11.99)"
   },
   {
     "name": "Proteins (pick 1):",
@@ -2642,7 +2947,8 @@
       "IAHS Café"
     ],
     "likeCount": 0,
-    "id": 306
+    "id": 306,
+    "price": "Included with Build Your Own Salad ($11.99)"
   },
   {
     "name": "Cheeses (pick 1)",
@@ -2652,7 +2958,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 307
+    "id": 307,
+    "price": "Included with Build Your Own Salad ($11.99)"
   },
   {
     "name": "Dressings (pick 1):",
@@ -2660,7 +2967,8 @@
       "IAHS Café"
     ],
     "likeCount": 0,
-    "id": 308
+    "id": 308,
+    "price": "Included with Build Your Own Salad ($11.99)"
   },
   {
     "name": "Hashbrown Rings",
@@ -2670,7 +2978,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 309
+    "id": 309,
+    "price": "$2.15"
   },
   {
     "name": "Breakfast Bagel Sandwiches",
@@ -2678,7 +2987,8 @@
       "IAHS Café"
     ],
     "likeCount": 0,
-    "id": 310
+    "id": 310,
+    "price": "$5.49 · $5.99"
   },
   {
     "name": "Chicken Bites",
@@ -2686,7 +2996,8 @@
       "IAHS Café"
     ],
     "likeCount": 0,
-    "id": 311
+    "id": 311,
+    "price": "$9.19"
   },
   {
     "name": "Two Egg Bites",
@@ -2694,7 +3005,8 @@
       "IAHS Café"
     ],
     "likeCount": 0,
-    "id": 312
+    "id": 312,
+    "price": "$2.99"
   },
   {
     "name": "Jamaican Patty",
@@ -2702,7 +3014,8 @@
       "IAHS Café"
     ],
     "likeCount": 0,
-    "id": 313
+    "id": 313,
+    "price": "$3.69"
   },
   {
     "name": "Breaded Chicken Burger",
@@ -2711,7 +3024,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 314
+    "id": 314,
+    "price": "$8.99"
   },
   {
     "name": "Mac & Cheese",
@@ -2720,7 +3034,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 315
+    "id": 315,
+    "price": "$6.39"
   },
   {
     "name": "Daily Soup",
@@ -2728,7 +3043,8 @@
       "IAHS Café"
     ],
     "likeCount": 0,
-    "id": 316
+    "id": 316,
+    "price": "$4.49"
   },
   {
     "name": "Butter Chicken Rice Bowl",
@@ -2737,7 +3053,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 317
+    "id": 317,
+    "price": "$8.49"
   },
   {
     "name": "Curly Fries",
@@ -2746,7 +3063,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 318
+    "id": 318,
+    "price": "$4.99"
   },
   {
     "name": "Meatball Sub",
@@ -2755,7 +3073,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 319
+    "id": 319,
+    "price": "$8.79"
   },
   {
     "name": "Breaded Chicken Parm Sandwich",
@@ -2764,7 +3083,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 320
+    "id": 320,
+    "price": "$8.99"
   },
   {
     "name": "Chana Rice Bowl",
@@ -2773,7 +3093,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 321
+    "id": 321,
+    "price": "$6.00"
   },
   {
     "name": "Iced Coffee",
@@ -2781,7 +3102,8 @@
       "IAHS Café"
     ],
     "likeCount": 0,
-    "id": 322
+    "id": 322,
+    "price": "$2.79"
   },
   {
     "name": "Iced Chai Latte",
@@ -2789,7 +3111,8 @@
       "IAHS Café"
     ],
     "likeCount": 0,
-    "id": 323
+    "id": 323,
+    "price": "$5.19"
   },
   {
     "name": "Iced London Fog Latte",
@@ -2797,7 +3120,8 @@
       "IAHS Café"
     ],
     "likeCount": 0,
-    "id": 324
+    "id": 324,
+    "price": "$5.19"
   },
   {
     "name": "Iced Matcha Latte",
@@ -2805,7 +3129,8 @@
       "IAHS Café"
     ],
     "likeCount": 0,
-    "id": 325
+    "id": 325,
+    "price": "$5.49"
   },
   {
     "name": "Bagel",
@@ -2813,7 +3138,8 @@
       "IAHS Café"
     ],
     "likeCount": 0,
-    "id": 326
+    "id": 326,
+    "price": "$2.49"
   },
   {
     "name": "Bagel with Cream Cheese",
@@ -2821,7 +3147,8 @@
       "IAHS Café"
     ],
     "likeCount": 0,
-    "id": 327
+    "id": 327,
+    "price": "$3.29"
   },
   {
     "name": "Slam Dunk",
@@ -2829,7 +3156,8 @@
       "La Piazza"
     ],
     "likeCount": 0,
-    "id": 328
+    "id": 328,
+    "price": "$8.25"
   },
   {
     "name": "Two Egg Breakfast",
@@ -2837,7 +3165,8 @@
       "La Piazza"
     ],
     "likeCount": 0,
-    "id": 329
+    "id": 329,
+    "price": "$7.59"
   },
   {
     "name": "Pancakes",
@@ -2846,7 +3175,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 330
+    "id": 330,
+    "price": "$6.49"
   },
   {
     "name": "Waffles",
@@ -2855,7 +3185,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 331
+    "id": 331,
+    "price": "$10.25"
   },
   {
     "name": "Vegan Fiesta Burrito",
@@ -2864,7 +3195,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 332
+    "id": 332,
+    "price": "$10.99"
   },
   {
     "name": "Buenos Dias Burrito (Bacon or Sausage)",
@@ -2872,7 +3204,8 @@
       "La Piazza"
     ],
     "likeCount": 0,
-    "id": 333
+    "id": 333,
+    "price": "$9.99"
   },
   {
     "name": "Roasted Lemon Chicken Leg",
@@ -2881,7 +3214,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 334
+    "id": 334,
+    "price": "$14.99"
   },
   {
     "name": "Chicken Souvlaki",
@@ -2890,7 +3224,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 335
+    "id": 335,
+    "price": "$14.99"
   },
   {
     "name": "Gyro",
@@ -2898,7 +3233,8 @@
       "La Piazza"
     ],
     "likeCount": 0,
-    "id": 336
+    "id": 336,
+    "price": "$13.99"
   },
   {
     "name": "Greek Salad",
@@ -2907,7 +3243,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 337
+    "id": 337,
+    "price": "$7.99"
   },
   {
     "name": "Baklava",
@@ -2916,7 +3253,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 338
+    "id": 338,
+    "price": "$4.99"
   },
   {
     "name": "Spanakopita",
@@ -2925,7 +3263,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 339
+    "id": 339,
+    "price": "$5.99"
   },
   {
     "name": "Chicken Quesadillas",
@@ -2934,7 +3273,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 340
+    "id": 340,
+    "price": "$12.99"
   },
   {
     "name": "Black Bean Quesadillas",
@@ -2943,7 +3283,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 341
+    "id": 341,
+    "price": "$10.99"
   },
   {
     "name": "Cheese Quesadillas",
@@ -2952,7 +3293,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 342
+    "id": 342,
+    "price": "$9.99"
   },
   {
     "name": "Vegan Chili",
@@ -2961,7 +3303,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 343
+    "id": 343,
+    "price": "$10.99"
   },
   {
     "name": "Guacamole & Chips",
@@ -2971,7 +3314,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 344
+    "id": 344,
+    "price": "$6.00 Signature Meal"
   },
   {
     "name": "Tacos",
@@ -2981,7 +3325,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 345
+    "id": 345,
+    "price": "$6.00"
   },
   {
     "name": "Beef Barbacoa Burrito Bowl",
@@ -2991,7 +3336,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 346
+    "id": 346,
+    "price": "$15.49"
   },
   {
     "name": "Burrito Bowl with Tex-Mex Chicken",
@@ -3001,7 +3347,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 347
+    "id": 347,
+    "price": "$13.99"
   },
   {
     "name": "Pork Carnitas Burrito Bowl",
@@ -3010,7 +3357,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 348
+    "id": 348,
+    "price": "$14.29"
   },
   {
     "name": "Guacamole Burrito Bowl",
@@ -3020,7 +3368,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 349
+    "id": 349,
+    "price": "$12.29"
   },
   {
     "name": "Beef Barbacoa Burrito Salad",
@@ -3030,7 +3379,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 350
+    "id": 350,
+    "price": "$15.49"
   },
   {
     "name": "Tex-Mex Chicken Burrito Salad",
@@ -3040,7 +3390,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 351
+    "id": 351,
+    "price": "$14.99"
   },
   {
     "name": "Pork Carnitas Burrito Salad",
@@ -3049,7 +3400,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 352
+    "id": 352,
+    "price": "$14.99"
   },
   {
     "name": "Guacamole Burrito Salad",
@@ -3059,7 +3411,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 353
+    "id": 353,
+    "price": "$14.49"
   },
   {
     "name": "Beef Barbacoa Burrito",
@@ -3068,7 +3421,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 354
+    "id": 354,
+    "price": "$13.29"
   },
   {
     "name": "Tex-Mex Chicken Burrito",
@@ -3077,7 +3431,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 355
+    "id": 355,
+    "price": "$12.29"
   },
   {
     "name": "Pork Carnitas Burrito",
@@ -3085,7 +3440,8 @@
       "La Piazza"
     ],
     "likeCount": 0,
-    "id": 356
+    "id": 356,
+    "price": "$12.29"
   },
   {
     "name": "Guacamole Burrito",
@@ -3094,7 +3450,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 357
+    "id": 357,
+    "price": "$10.49"
   },
   {
     "name": "Fattoush Salad Bowl – Falafel",
@@ -3103,7 +3460,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 358
+    "id": 358,
+    "price": "$8.99"
   },
   {
     "name": "Fattoush Salad Bowl – Chicken",
@@ -3112,7 +3470,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 359
+    "id": 359,
+    "price": "$9.95"
   },
   {
     "name": "Rice Bowl – Falafel",
@@ -3122,7 +3481,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 360
+    "id": 360,
+    "price": "$8.99"
   },
   {
     "name": "Rice Bowl – Chicken",
@@ -3132,7 +3492,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 361
+    "id": 361,
+    "price": "$10.49"
   },
   {
     "name": "Wrap – Falafel",
@@ -3141,7 +3502,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 362
+    "id": 362,
+    "price": "$11.99"
   },
   {
     "name": "Wrap – Chicken",
@@ -3150,7 +3512,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 363
+    "id": 363,
+    "price": "$11.99"
   },
   {
     "name": "Chicken Batata Harra Poutine",
@@ -3160,7 +3523,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 364
+    "id": 364,
+    "price": "$13.99"
   },
   {
     "name": "Batata Harra",
@@ -3170,7 +3534,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 365
+    "id": 365,
+    "price": "$6.00"
   },
   {
     "name": "Batata Harra Poutine",
@@ -3180,7 +3545,8 @@
       "gluten free"
     ],
     "likeCount": 0,
-    "id": 366
+    "id": 366,
+    "price": "$11.99"
   },
   {
     "name": "Chipotle Steak & Egg",
@@ -3189,7 +3555,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 367
+    "id": 367,
+    "price": "$10.25"
   },
   {
     "name": "Southwest Vegan Chorizo",
@@ -3198,7 +3565,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 368
+    "id": 368,
+    "price": "$10.25"
   },
   {
     "name": "Rise & Shine",
@@ -3207,7 +3575,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 369
+    "id": 369,
+    "price": "$10.25"
   },
   {
     "name": "Lumberjack",
@@ -3215,7 +3584,8 @@
       "La Piazza"
     ],
     "likeCount": 0,
-    "id": 370
+    "id": 370,
+    "price": "$10.25"
   },
   {
     "name": "Crispy chicken Fingers",
@@ -3224,7 +3594,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 371
+    "id": 371,
+    "price": "$9.29"
   },
   {
     "name": "Grilled Chicken Sandwich",
@@ -3233,7 +3604,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 372
+    "id": 372,
+    "price": "$9.99"
   },
   {
     "name": "Mac Crunchy",
@@ -3242,7 +3614,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 373
+    "id": 373,
+    "price": "$9.99"
   },
   {
     "name": "BBQ Wrap",
@@ -3251,7 +3624,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 374
+    "id": 374,
+    "price": "$9.29"
   },
   {
     "name": "Chicken Caesar Wrap",
@@ -3259,7 +3633,8 @@
       "La Piazza"
     ],
     "likeCount": 0,
-    "id": 375
+    "id": 375,
+    "price": "$9.29"
   },
   {
     "name": "Plant Based Ranch Wrap",
@@ -3268,7 +3643,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 376
+    "id": 376,
+    "price": "$10.49"
   },
   {
     "name": "Plant Based Buffalo Wrap",
@@ -3277,7 +3653,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 377
+    "id": 377,
+    "price": "$10.59"
   },
   {
     "name": "Plant Based Chicken Fingers",
@@ -3286,7 +3663,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 378
+    "id": 378,
+    "price": "$9.95"
   },
   {
     "name": "Fresh Cut Fries",
@@ -3294,7 +3672,8 @@
       "La Piazza"
     ],
     "likeCount": 0,
-    "id": 379
+    "id": 379,
+    "price": "$4.69"
   },
   {
     "name": "Sweet Potato Fries",
@@ -3302,7 +3681,8 @@
       "La Piazza"
     ],
     "likeCount": 0,
-    "id": 380
+    "id": 380,
+    "price": "$6.49"
   },
   {
     "name": "Poutine",
@@ -3310,7 +3690,8 @@
       "La Piazza"
     ],
     "likeCount": 0,
-    "id": 381
+    "id": 381,
+    "price": "$9.48"
   },
   {
     "name": "Fries Combo",
@@ -3318,7 +3699,8 @@
       "La Piazza"
     ],
     "likeCount": 0,
-    "id": 382
+    "id": 382,
+    "price": "$5.59"
   },
   {
     "name": "Salad Combo",
@@ -3326,7 +3708,8 @@
       "La Piazza"
     ],
     "likeCount": 0,
-    "id": 383
+    "id": 383,
+    "price": "$5.59"
   },
   {
     "name": "Smash Burger",
@@ -3335,7 +3718,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 384
+    "id": 384,
+    "price": "$8.99"
   },
   {
     "name": "Jalapeño Cheddar Burger",
@@ -3344,7 +3728,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 385
+    "id": 385,
+    "price": "$10.49"
   },
   {
     "name": "Cheese Burger",
@@ -3353,7 +3738,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 386
+    "id": 386,
+    "price": "$9.99"
   },
   {
     "name": "Swiss Mushroom Burger",
@@ -3362,7 +3748,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 387
+    "id": 387,
+    "price": "$10.99"
   },
   {
     "name": "Jalapeno Cheddar Burger",
@@ -3371,7 +3758,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 388
+    "id": 388,
+    "price": "$10.49"
   },
   {
     "name": "Ham & Cheese",
@@ -3379,7 +3767,8 @@
       "La Piazza"
     ],
     "likeCount": 0,
-    "id": 389
+    "id": 389,
+    "price": "Regular $8.99 · Large $14.99"
   },
   {
     "name": "Turkey Provolone",
@@ -3387,7 +3776,8 @@
       "La Piazza"
     ],
     "likeCount": 0,
-    "id": 390
+    "id": 390,
+    "price": "Regular $8.99 · Large $14.99"
   },
   {
     "name": "Italian Sub",
@@ -3395,7 +3785,8 @@
       "La Piazza"
     ],
     "likeCount": 0,
-    "id": 391
+    "id": 391,
+    "price": "Regular $8.99 · Large $14.99"
   },
   {
     "name": "Turkey, Ham & Swiss Sub",
@@ -3403,7 +3794,8 @@
       "La Piazza"
     ],
     "likeCount": 0,
-    "id": 392
+    "id": 392,
+    "price": "Regular $8.99 · Large $14.99"
   },
   {
     "name": "Veggie Pizza Panini",
@@ -3412,7 +3804,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 393
+    "id": 393,
+    "price": "$8.99"
   },
   {
     "name": "Pepperoni Pizza Panini",
@@ -3420,7 +3813,8 @@
       "La Piazza"
     ],
     "likeCount": 0,
-    "id": 394
+    "id": 394,
+    "price": "$9.99"
   },
   {
     "name": "Chicken Pesto Panini",
@@ -3429,7 +3823,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 395
+    "id": 395,
+    "price": "$10.25"
   },
   {
     "name": "Grilled Chicken Panini",
@@ -3438,7 +3833,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 396
+    "id": 396,
+    "price": "$7.99"
   },
   {
     "name": "Half Grilled Cheese and Tomato Soup",
@@ -3447,7 +3843,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 397
+    "id": 397,
+    "price": "$6.00 Signature Meal"
   },
   {
     "name": "Pho Soup Beef",
@@ -3455,7 +3852,8 @@
       "La Piazza"
     ],
     "likeCount": 0,
-    "id": 398
+    "id": 398,
+    "price": "$13.99"
   },
   {
     "name": "Pho Soup Chicken",
@@ -3463,7 +3861,8 @@
       "La Piazza"
     ],
     "likeCount": 0,
-    "id": 399
+    "id": 399,
+    "price": "$13.99"
   },
   {
     "name": "Wonton Soup",
@@ -3471,7 +3870,8 @@
       "La Piazza"
     ],
     "likeCount": 0,
-    "id": 400
+    "id": 400,
+    "price": "$13.99"
   },
   {
     "name": "Coffee",
@@ -3479,7 +3879,8 @@
       "The Reactor Café"
     ],
     "likeCount": 0,
-    "id": 401
+    "id": 401,
+    "price": "Medium $2.65 · Large $2.99"
   },
   {
     "name": "Tea",
@@ -3487,7 +3888,8 @@
       "The Reactor Café"
     ],
     "likeCount": 0,
-    "id": 402
+    "id": 402,
+    "price": "Medium $2.65 · Large $2.99"
   },
   {
     "name": "Hot Chocolate",
@@ -3495,7 +3897,8 @@
       "The Reactor Café"
     ],
     "likeCount": 0,
-    "id": 403
+    "id": 403,
+    "price": "Medium $2.59 · Large $2.95"
   },
   {
     "name": "Cappuccino",
@@ -3503,7 +3906,8 @@
       "The Reactor Café"
     ],
     "likeCount": 0,
-    "id": 404
+    "id": 404,
+    "price": "Medium $4.39 · Large $5.39"
   },
   {
     "name": "Americano",
@@ -3511,7 +3915,8 @@
       "The Reactor Café"
     ],
     "likeCount": 0,
-    "id": 405
+    "id": 405,
+    "price": "Medium $3.59 · Large $4.19"
   },
   {
     "name": "Latte",
@@ -3519,7 +3924,8 @@
       "The Reactor Café"
     ],
     "likeCount": 0,
-    "id": 406
+    "id": 406,
+    "price": "Medium $4.59 · Large $5.49"
   },
   {
     "name": "Tea Latte",
@@ -3527,7 +3933,8 @@
       "The Reactor Café"
     ],
     "likeCount": 0,
-    "id": 407
+    "id": 407,
+    "price": "Medium $5.19 · Large $5.49"
   },
   {
     "name": "London Fog",
@@ -3535,7 +3942,8 @@
       "The Reactor Café"
     ],
     "likeCount": 0,
-    "id": 408
+    "id": 408,
+    "price": "Medium $5.19 · Large $5.49"
   },
   {
     "name": "Mocha",
@@ -3543,7 +3951,8 @@
       "The Reactor Café"
     ],
     "likeCount": 0,
-    "id": 409
+    "id": 409,
+    "price": "Medium $5.29 · Large $5.89"
   },
   {
     "name": "Espresso",
@@ -3551,7 +3960,8 @@
       "The Reactor Café"
     ],
     "likeCount": 0,
-    "id": 410
+    "id": 410,
+    "price": "Medium $2.49 · Large $3.99"
   },
   {
     "name": "Extra Expresso Shot",
@@ -3559,7 +3969,8 @@
       "The Reactor Café"
     ],
     "likeCount": 0,
-    "id": 411
+    "id": 411,
+    "price": "$1.19"
   },
   {
     "name": "Extra Flavour Shot",
@@ -3567,7 +3978,8 @@
       "The Reactor Café"
     ],
     "likeCount": 0,
-    "id": 412
+    "id": 412,
+    "price": "$1.39"
   },
   {
     "name": "Add Honey",
@@ -3575,7 +3987,8 @@
       "The Reactor Café"
     ],
     "likeCount": 0,
-    "id": 413
+    "id": 413,
+    "price": "$0.55"
   },
   {
     "name": "Make it with skim or oat",
@@ -3583,7 +3996,8 @@
       "The Reactor Café"
     ],
     "likeCount": 0,
-    "id": 414
+    "id": 414,
+    "price": "$0.00"
   },
   {
     "name": "Iced Coffee",
@@ -3591,7 +4005,8 @@
       "The Reactor Café"
     ],
     "likeCount": 0,
-    "id": 415
+    "id": 415,
+    "price": "$2.79"
   },
   {
     "name": "Iced Latte",
@@ -3599,7 +4014,8 @@
       "The Reactor Café"
     ],
     "likeCount": 0,
-    "id": 416
+    "id": 416,
+    "price": "$4.59"
   },
   {
     "name": "Iced Tea Latte",
@@ -3607,7 +4023,8 @@
       "The Reactor Café"
     ],
     "likeCount": 0,
-    "id": 417
+    "id": 417,
+    "price": "$5.19"
   },
   {
     "name": "Pepperoni Pizza",
@@ -3616,7 +4033,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 418
+    "id": 418,
+    "price": "$6.49"
   },
   {
     "name": "Vegetarian Pizza",
@@ -3625,7 +4043,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 419
+    "id": 419,
+    "price": "$6.49"
   },
   {
     "name": "Chicken Pizza",
@@ -3634,7 +4053,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 420
+    "id": 420,
+    "price": "$6.99"
   },
   {
     "name": "Cheese Pizza",
@@ -3643,7 +4063,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 421
+    "id": 421,
+    "price": "$6.00"
   },
   {
     "name": "Jamaican Patty",
@@ -3653,7 +4074,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 422
+    "id": 422,
+    "price": "$3.69"
   },
   {
     "name": "Bagel",
@@ -3663,7 +4085,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 423
+    "id": 423,
+    "price": "$2.49"
   },
   {
     "name": "Grilled Cheese Sandwich",
@@ -3672,7 +4095,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 424
+    "id": 424,
+    "price": "$5.99"
   },
   {
     "name": "Vegetarian Samosas",
@@ -3681,7 +4105,8 @@
       "vegan"
     ],
     "likeCount": 0,
-    "id": 425
+    "id": 425,
+    "price": "$4.29"
   },
   {
     "name": "Garlic Sticks",
@@ -3690,7 +4115,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 426
+    "id": 426,
+    "price": "$3.99"
   },
   {
     "name": "Reactor Chicken Quesadilla",
@@ -3699,7 +4125,8 @@
       "halal"
     ],
     "likeCount": 0,
-    "id": 427
+    "id": 427,
+    "price": "$11.99"
   },
   {
     "name": "Reactor Veggie Quesadilla",
@@ -3708,7 +4135,8 @@
       "vegetarian"
     ],
     "likeCount": 0,
-    "id": 428
+    "id": 428,
+    "price": "$10.99"
   },
   {
     "name": "Teriyaki Chicken",
@@ -3716,7 +4144,8 @@
       "Teriyaki Experience"
     ],
     "likeCount": 0,
-    "id": 429
+    "id": 429,
+    "price": "$13.99"
   },
   {
     "name": "Ginger Sesame Beef",
@@ -3724,7 +4153,8 @@
       "Teriyaki Experience"
     ],
     "likeCount": 0,
-    "id": 430
+    "id": 430,
+    "price": "$14.49"
   },
   {
     "name": "Sweet Chilli Shrimp",
@@ -3732,7 +4162,8 @@
       "Teriyaki Experience"
     ],
     "likeCount": 0,
-    "id": 431
+    "id": 431,
+    "price": "$14.99"
   },
   {
     "name": "Hot & Spicy Chicken",
@@ -3740,7 +4171,8 @@
       "Teriyaki Experience"
     ],
     "likeCount": 0,
-    "id": 432
+    "id": 432,
+    "price": "$13.99"
   },
   {
     "name": "Teriyaki Veggie Tofu",
@@ -3748,7 +4180,8 @@
       "Teriyaki Experience"
     ],
     "likeCount": 0,
-    "id": 433
+    "id": 433,
+    "price": "$13.99"
   },
   {
     "name": "Triple Protein",
@@ -3756,7 +4189,8 @@
       "Teriyaki Experience"
     ],
     "likeCount": 0,
-    "id": 434
+    "id": 434,
+    "price": "$19.99"
   },
   {
     "name": "Bento Bowl",
@@ -3764,7 +4198,8 @@
       "Teriyaki Experience"
     ],
     "likeCount": 0,
-    "id": 435
+    "id": 435,
+    "price": "$8.99"
   },
   {
     "name": "Pineapple Bowl",
@@ -3772,7 +4207,8 @@
       "Teriyaki Experience"
     ],
     "likeCount": 0,
-    "id": 436
+    "id": 436,
+    "price": "$8.99"
   },
   {
     "name": "Dynamite Poke Bowl",
@@ -3780,7 +4216,8 @@
       "Teriyaki Experience"
     ],
     "likeCount": 0,
-    "id": 437
+    "id": 437,
+    "price": "$14.99"
   },
   {
     "name": "Salmon Poke Bowl",
@@ -3788,7 +4225,8 @@
       "Teriyaki Experience"
     ],
     "likeCount": 0,
-    "id": 438
+    "id": 438,
+    "price": "$14.99"
   },
   {
     "name": "Shrimp Tom Yum",
@@ -3796,7 +4234,8 @@
       "Teriyaki Experience"
     ],
     "likeCount": 0,
-    "id": 439
+    "id": 439,
+    "price": "$13.99"
   },
   {
     "name": "Karaage Chicken",
@@ -3804,7 +4243,8 @@
       "Teriyaki Experience"
     ],
     "likeCount": 0,
-    "id": 440
+    "id": 440,
+    "price": "$5.99"
   },
   {
     "name": "Veggie Spring Roll",
@@ -3812,7 +4252,8 @@
       "Teriyaki Experience"
     ],
     "likeCount": 0,
-    "id": 441
+    "id": 441,
+    "price": "$2.99"
   },
   {
     "name": "Shrimp Tempura",
@@ -3820,7 +4261,8 @@
       "Teriyaki Experience"
     ],
     "likeCount": 0,
-    "id": 442
+    "id": 442,
+    "price": "$4.99"
   },
   {
     "name": "Takoyaki Bites",
@@ -3828,6 +4270,7 @@
       "Teriyaki Experience"
     ],
     "likeCount": 0,
-    "id": 443
+    "id": 443,
+    "price": "$3.99"
   }
 ]
