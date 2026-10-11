@@ -46,7 +46,7 @@ function displayResults(results) {
 
     const price = document.createElement("p");
     price.className = "price";
-    price.textContent = result.price;
+    price.textContent = formatPrice(result.price);
     item.appendChild(price);
 
     const tags = document.createElement("p");
@@ -68,6 +68,10 @@ function displayResults(results) {
 function updateLikes(button, count) {
   button.textContent = `♡ ${count}`;
   button.setAttribute("aria-label", `Like ${button.closest("article")?.querySelector("h3")?.textContent || "this food"}. ${count} likes.`);
+}
+
+function formatPrice(price) {
+  return String(price ?? "").replace(/^prices?\s*:?\s*/i, "");
 }
 
 async function likeItem(item, button) {

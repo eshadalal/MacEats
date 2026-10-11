@@ -52,7 +52,7 @@ function displayTopFoods(items) {
 
         const price = document.createElement('p');
         price.className = 'price';
-        price.textContent = item.price;
+        price.textContent = formatPrice(item.price);
         div.appendChild(price);
 
         if (item.tags && item.tags.length) {
@@ -69,6 +69,10 @@ function displayTopFoods(items) {
 
         container.appendChild(div);
     });
+}
+
+function formatPrice(price) {
+    return String(price ?? '').replace(/^prices?\s*:?\s*/i, '');
 }
 
 loadItems();
