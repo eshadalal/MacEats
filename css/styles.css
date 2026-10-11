@@ -31,6 +31,15 @@ h1 {
     color: #7A003C;
 }
 
+.menu-updated {
+    position: absolute;
+    top: 26px;
+    right: 20px;
+    color: #555;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
 input[type="text"] {
     padding: 10px;
     width: 300px;
@@ -166,6 +175,12 @@ button:hover {
 }
 
 @media (max-width: 480px) {
+    .menu-updated {
+        top: 78px;
+        right: 12px;
+        font-size: 0.8rem;
+    }
+
     input[type="text"] {
         width: 200px;
     }
